@@ -13,7 +13,7 @@
       }
     ],
     "dateAdded": 1792951172,
-    "dateLastModified": 1792951456
+    "dateLastModified": 1792955481
   },
   "feat": [
     {
@@ -2849,6 +2849,11 @@
       ],
       "creatureTypes": [
         "humanoid"
+      ],
+      "feats": [
+        {
+          "any": 2
+        }
       ]
     },
     {
@@ -3452,6 +3457,366 @@
       ],
       "resist": [
         "necrotic"
+      ]
+    },
+    {
+      "name": "Marca da Castidade",
+      "source": "CHRONOS",
+      "raceName": "Virtaryn",
+      "raceSource": "CHRONOS",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Talento da Marca",
+          "entries": [
+            "Você recebe o talento {@feat marca da castidade|chronos}. Qualquer magia concedida por ele usa o valor de habilidade escolhido no seu Aumento de Valor de Habilidade racial como atributo de conjuração."
+          ]
+        }
+      ],
+      "feats": [
+        {
+          "marca da castidade|chronos": true
+        }
+      ]
+    },
+    {
+      "name": "Marca da Honestidade",
+      "source": "CHRONOS",
+      "raceName": "Virtaryn",
+      "raceSource": "CHRONOS",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Talento da Marca",
+          "entries": [
+            "Você recebe o talento {@feat marca da honestidade|chronos}. Qualquer magia concedida por ele usa o valor de habilidade escolhido no seu Aumento de Valor de Habilidade racial como atributo de conjuração."
+          ]
+        }
+      ],
+      "feats": [
+        {
+          "marca da honestidade|chronos": true
+        }
+      ]
+    },
+    {
+      "name": "Marca do Contentamento",
+      "source": "CHRONOS",
+      "raceName": "Virtaryn",
+      "raceSource": "CHRONOS",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Talento da Marca",
+          "entries": [
+            "Você recebe o talento {@feat marca do contentamento|chronos}. Qualquer magia concedida por ele usa o valor de habilidade escolhido no seu Aumento de Valor de Habilidade racial como atributo de conjuração."
+          ]
+        }
+      ],
+      "feats": [
+        {
+          "marca do contentamento|chronos": true
+        }
+      ]
+    },
+    {
+      "name": "Marca da Generosidade",
+      "source": "CHRONOS",
+      "raceName": "Virtaryn",
+      "raceSource": "CHRONOS",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Talento da Marca",
+          "entries": [
+            "Você recebe o talento {@feat marca da generosidade|chronos}. Qualquer magia concedida por ele usa o valor de habilidade escolhido no seu Aumento de Valor de Habilidade racial como atributo de conjuração."
+          ]
+        }
+      ],
+      "feats": [
+        {
+          "marca da generosidade|chronos": true
+        }
+      ]
+    },
+    {
+      "name": "Marca da Coragem",
+      "source": "CHRONOS",
+      "raceName": "Virtaryn",
+      "raceSource": "CHRONOS",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Talento da Marca",
+          "entries": [
+            "Você recebe o talento {@feat marca da coragem|chronos}. Qualquer magia concedida por ele usa o valor de habilidade escolhido no seu Aumento de Valor de Habilidade racial como atributo de conjuração."
+          ]
+        }
+      ],
+      "feats": [
+        {
+          "marca da coragem|chronos": true
+        }
+      ]
+    },
+    {
+      "name": "Marca da Humildade",
+      "source": "CHRONOS",
+      "raceName": "Virtaryn",
+      "raceSource": "CHRONOS",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Talento da Marca",
+          "entries": [
+            "Você recebe o talento {@feat marca da humildade|chronos}. Qualquer magia concedida por ele usa o valor de habilidade escolhido no seu Aumento de Valor de Habilidade racial como atributo de conjuração."
+          ]
+        }
+      ],
+      "feats": [
+        {
+          "marca da humildade|chronos": true
+        }
+      ]
+    },
+    {
+      "name": "Marca da Paciência",
+      "source": "CHRONOS",
+      "raceName": "Virtaryn",
+      "raceSource": "CHRONOS",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Talento da Marca",
+          "entries": [
+            "Você recebe o talento {@feat marca da paciência|chronos}. Qualquer magia concedida por ele usa o valor de habilidade escolhido no seu Aumento de Valor de Habilidade racial como atributo de conjuração."
+          ]
+        }
+      ],
+      "feats": [
+        {
+          "marca da paciência|chronos": true
+        }
+      ]
+    },
+    {
+      "name": "Marca da Temperança",
+      "source": "CHRONOS",
+      "raceName": "Virtaryn",
+      "raceSource": "CHRONOS",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Talento da Marca",
+          "entries": [
+            "Você recebe o talento {@feat marca da temperança|chronos}. Qualquer magia concedida por ele usa o valor de habilidade escolhido no seu Aumento de Valor de Habilidade racial como atributo de conjuração."
+          ]
+        }
+      ],
+      "feats": [
+        {
+          "marca da temperança|chronos": true
+        }
+      ]
+    },
+    {
+      "name": "Marca da Diligência",
+      "source": "CHRONOS",
+      "raceName": "Virtaryn",
+      "raceSource": "CHRONOS",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Talento da Marca",
+          "entries": [
+            "Você recebe o talento {@feat marca da diligência|chronos}. Qualquer magia concedida por ele usa o valor de habilidade escolhido no seu Aumento de Valor de Habilidade racial como atributo de conjuração."
+          ]
+        }
+      ],
+      "feats": [
+        {
+          "marca da diligência|chronos": true
+        }
+      ]
+    },
+    {
+      "name": "Marca da Luxúria",
+      "source": "CHRONOS",
+      "raceName": "Nefaryn",
+      "raceSource": "CHRONOS",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Talento da Marca",
+          "entries": [
+            "Você recebe o talento {@feat marca da luxúria|chronos}. Qualquer magia concedida por ele usa o valor de habilidade escolhido no seu Aumento de Valor de Habilidade racial como atributo de conjuração."
+          ]
+        }
+      ],
+      "feats": [
+        {
+          "marca da luxúria|chronos": true
+        }
+      ]
+    },
+    {
+      "name": "Marca da Mentira",
+      "source": "CHRONOS",
+      "raceName": "Nefaryn",
+      "raceSource": "CHRONOS",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Talento da Marca",
+          "entries": [
+            "Você recebe o talento {@feat marca da mentira|chronos}. Qualquer magia concedida por ele usa o valor de habilidade escolhido no seu Aumento de Valor de Habilidade racial como atributo de conjuração."
+          ]
+        }
+      ],
+      "feats": [
+        {
+          "marca da mentira|chronos": true
+        }
+      ]
+    },
+    {
+      "name": "Marca da Inveja",
+      "source": "CHRONOS",
+      "raceName": "Nefaryn",
+      "raceSource": "CHRONOS",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Talento da Marca",
+          "entries": [
+            "Você recebe o talento {@feat marca da inveja|chronos}. Qualquer magia concedida por ele usa o valor de habilidade escolhido no seu Aumento de Valor de Habilidade racial como atributo de conjuração."
+          ]
+        }
+      ],
+      "feats": [
+        {
+          "marca da inveja|chronos": true
+        }
+      ]
+    },
+    {
+      "name": "Marca da Avareza",
+      "source": "CHRONOS",
+      "raceName": "Nefaryn",
+      "raceSource": "CHRONOS",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Talento da Marca",
+          "entries": [
+            "Você recebe o talento {@feat marca da avareza|chronos}. Qualquer magia concedida por ele usa o valor de habilidade escolhido no seu Aumento de Valor de Habilidade racial como atributo de conjuração."
+          ]
+        }
+      ],
+      "feats": [
+        {
+          "marca da avareza|chronos": true
+        }
+      ]
+    },
+    {
+      "name": "Marca do Terror",
+      "source": "CHRONOS",
+      "raceName": "Nefaryn",
+      "raceSource": "CHRONOS",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Talento da Marca",
+          "entries": [
+            "Você recebe o talento {@feat marca do terror|chronos}. Qualquer magia concedida por ele usa o valor de habilidade escolhido no seu Aumento de Valor de Habilidade racial como atributo de conjuração."
+          ]
+        }
+      ],
+      "feats": [
+        {
+          "marca do terror|chronos": true
+        }
+      ]
+    },
+    {
+      "name": "Marca do Orgulho",
+      "source": "CHRONOS",
+      "raceName": "Nefaryn",
+      "raceSource": "CHRONOS",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Talento da Marca",
+          "entries": [
+            "Você recebe o talento {@feat marca do orgulho|chronos}. Qualquer magia concedida por ele usa o valor de habilidade escolhido no seu Aumento de Valor de Habilidade racial como atributo de conjuração."
+          ]
+        }
+      ],
+      "feats": [
+        {
+          "marca do orgulho|chronos": true
+        }
+      ]
+    },
+    {
+      "name": "Marca da Ira",
+      "source": "CHRONOS",
+      "raceName": "Nefaryn",
+      "raceSource": "CHRONOS",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Talento da Marca",
+          "entries": [
+            "Você recebe o talento {@feat marca da ira|chronos}. Qualquer magia concedida por ele usa o valor de habilidade escolhido no seu Aumento de Valor de Habilidade racial como atributo de conjuração."
+          ]
+        }
+      ],
+      "feats": [
+        {
+          "marca da ira|chronos": true
+        }
+      ]
+    },
+    {
+      "name": "Marca da Gula",
+      "source": "CHRONOS",
+      "raceName": "Nefaryn",
+      "raceSource": "CHRONOS",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Talento da Marca",
+          "entries": [
+            "Você recebe o talento {@feat marca da gula|chronos}. Qualquer magia concedida por ele usa o valor de habilidade escolhido no seu Aumento de Valor de Habilidade racial como atributo de conjuração."
+          ]
+        }
+      ],
+      "feats": [
+        {
+          "marca da gula|chronos": true
+        }
+      ]
+    },
+    {
+      "name": "Marca da Preguiça",
+      "source": "CHRONOS",
+      "raceName": "Nefaryn",
+      "raceSource": "CHRONOS",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Talento da Marca",
+          "entries": [
+            "Você recebe o talento {@feat marca da preguiça|chronos}. Qualquer magia concedida por ele usa o valor de habilidade escolhido no seu Aumento de Valor de Habilidade racial como atributo de conjuração."
+          ]
+        }
+      ],
+      "feats": [
+        {
+          "marca da preguiça|chronos": true
+        }
       ]
     }
   ]

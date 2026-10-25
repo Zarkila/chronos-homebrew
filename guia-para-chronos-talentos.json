@@ -1,0 +1,1843 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "CHRONOS",
+        "abbreviation": "CHR",
+        "full": "Guia para Chronos",
+        "authors": [
+          "Homebrew"
+        ],
+        "convertedBy": [],
+        "version": "1.0.0"
+      }
+    ],
+    "dateAdded": 1792951172,
+    "dateLastModified": 1792951172
+  },
+  "feat": [
+    {
+      "name": "Marca da Castidade",
+      "source": "CHRONOS",
+      "page": 1,
+      "category": "G",
+      "prerequisite": [
+        {
+          "other": "Ter realizado um ato de Castidade recente de altas proporções com repercussões profundas ou ser um Virtaryn"
+        }
+      ],
+      "entries": [
+        "Você carrega em seu ser a pureza inviolável da castidade divina, concedendo os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Sabedoria ou Carisma aumenta em 1."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Mente Inviolável",
+          "entries": [
+            "Você é imune à condição Encantado. Sempre que uma criatura tentar controlar sua mente ou encantá-lo e falhar, ela sofre dano psíquico igual ao seu Bônus de Proficiência + seu modificador de Carisma."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Escudo Mental Compartilhado",
+          "entries": [
+            "Uma vez por descanso longo, como uma Reação quando um aliado que você possa ver for alvo de uma magia ou efeito que tente encantá-lo ou controlar sua mente, você pode conceder a ele vantagem no teste para resistir ao efeito."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Graça Imaculada",
+          "entries": [
+            "Você ganha proficiência na perícia Intuição e resistência a dano de Fogo."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Magia Inata",
+          "entries": [
+            "Você aprende as magias {@spell protection from evil and good|xphb|Proteção contra o Bem e o Mal} e {@spell lesser restoration|xphb|Restauração Menor}, podendo conjurar cada uma delas uma vez por descanso longo sem gastar espaços de magia ou componentes materiais."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "wis",
+              "cha"
+            ],
+            "amount": 1
+          }
+        }
+      ],
+      "additionalSpells": [
+        {
+          "innate": {
+            "_": {
+              "daily": {
+                "1": [
+                  "protection from evil and good|xphb",
+                  "lesser restoration|xphb"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "skillProficiencies": [
+        {
+          "insight": true
+        }
+      ],
+      "resist": [
+        "fire"
+      ],
+      "conditionImmune": [
+        "charmed"
+      ]
+    },
+    {
+      "name": "Marca da Honestidade",
+      "source": "CHRONOS",
+      "page": 1,
+      "category": "G",
+      "prerequisite": [
+        {
+          "other": "Ter realizado um ato de Honestidade recente de altas proporções com repercussões profundas ou ser um Virtaryn"
+        }
+      ],
+      "entries": [
+        "A verdade sagrada reside em sua mente e em seus olhos, concedendo os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Sabedoria ou Inteligência aumenta em 1."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Olho da Verdade",
+          "entries": [
+            "Você tem vantagem em testes de Intuição e Investigação para perceber ilusões, disfarces e mentiras. Além disso, suas ações não podem ser controladas por meios mágicos."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Véu Revelado",
+          "entries": [
+            "Você ganha proficiência em testes de resistência de Intuição e resistência a dano Psíquico."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Magia Inata",
+          "entries": [
+            "Você aprende as magias {@spell detect evil and good|xphb|Detectar o Bem e o Mal} e {@spell zone of truth|xphb|Zona da Verdade}, podendo conjurar cada uma delas uma vez por descanso longo sem gastar espaços de magia ou componentes materiais."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "wis",
+              "int"
+            ],
+            "amount": 1
+          }
+        }
+      ],
+      "additionalSpells": [
+        {
+          "innate": {
+            "_": {
+              "daily": {
+                "1": [
+                  "detect evil and good|xphb",
+                  "zone of truth|xphb"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "resist": [
+        "psychic"
+      ]
+    },
+    {
+      "name": "Marca do Contentamento",
+      "source": "CHRONOS",
+      "page": 1,
+      "category": "G",
+      "prerequisite": [
+        {
+          "other": "Ter realizado um ato de Contentamento/Desapego recente de altas proporções com repercussões profundas ou ser um Virtaryn"
+        }
+      ],
+      "entries": [
+        "A paz com a sua própria existência protege sua mente contra manipulações mundanas, concedendo os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Sabedoria ou Constituição aumenta em 1."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Espírito Inabalável",
+          "entries": [
+            "Você é imune a ter seus pensamentos lidos contra a sua vontade e possui vantagem em testes de resistência contra magias das escolas de Ilusão e Encantamento."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Paz Interior",
+          "entries": [
+            "Você ganha proficiência em testes de resistência contra a condição Amedrontado (ou vantagem se já for proficiente) e resistência a dano Necrótico."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Magia Inata",
+          "entries": [
+            "Você aprende as magias {@spell sanctuary|xphb|Santuário} e {@spell calm emotions|xphb|Acalmar Emoções}, podendo conjurar cada uma delas uma vez por descanso longo sem gastar espaços de magia ou componentes materiais."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "wis",
+              "con"
+            ],
+            "amount": 1
+          }
+        }
+      ],
+      "additionalSpells": [
+        {
+          "innate": {
+            "_": {
+              "daily": {
+                "1": [
+                  "sanctuary|xphb",
+                  "calm emotions|xphb"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "resist": [
+        "necrotic"
+      ]
+    },
+    {
+      "name": "Marca da Generosidade",
+      "source": "CHRONOS",
+      "page": 1,
+      "category": "G",
+      "prerequisite": [
+        {
+          "other": "Ter realizado um ato extraordinário de Generosidade com repercussões profundas ou ser um Virtaryn"
+        }
+      ],
+      "entries": [
+        "Sua capacidade de doação nutre a força vital daqueles ao seu redor, concedendo os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Sabedoria ou Carisma aumenta em 1."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Fluxo Vital",
+          "entries": [
+            "Uma vez por turno, quando você usa uma magia ou habilidade de 1º nível ou superior que cura ou concede pontos de vida temporários a uma criatura, você pode gastar um Dado de Vida para dobrar o efeito da cura ou dos pontos de vida temporários concedidos. Você pode usar esta habilidade um número de vezes igual ao seu Bônus de Proficiência, recuperando os usos após um descanso longo."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Dádiva Imutável",
+          "entries": [
+            "Você ganha proficiência na perícia Intuição e resistência a dano de Ácido."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Magia Inata",
+          "entries": [
+            "Você aprende as magias {@spell cure wounds|xphb|Curar Ferimentos} e {@spell aid|xphb|Ajuda}, podendo conjurar cada uma delas uma vez por descanso longo sem gastar espaços de magia ou componentes materiais."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "wis",
+              "cha"
+            ],
+            "amount": 1
+          }
+        }
+      ],
+      "additionalSpells": [
+        {
+          "innate": {
+            "_": {
+              "daily": {
+                "1": [
+                  "cure wounds|xphb",
+                  "aid|xphb"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "skillProficiencies": [
+        {
+          "insight": true
+        }
+      ],
+      "resist": [
+        "acid"
+      ]
+    },
+    {
+      "name": "Marca da Coragem",
+      "source": "CHRONOS",
+      "page": 1,
+      "category": "G",
+      "prerequisite": [
+        {
+          "other": "Ter realizado um ato de Coragem recente de altas proporções com repercussões profundas ou ser um Virtaryn"
+        }
+      ],
+      "entries": [
+        "O ardor da bravura inspira você e seus aliados no campo de batalha, concedendo os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Força, Constituição ou Carisma aumenta em 1."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Faro da Esperança",
+          "entries": [
+            "Você é imune à condição Amedrontado. Aliados a até 9 metros de você ganham vantagem em testes de resistência para resistir ao medo."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Espírito Intrépido",
+          "entries": [
+            "Você ganha proficiência na perícia Atletismo e resistência a dano de Frio."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Magia Inata",
+          "entries": [
+            "Você aprende as magias {@spell heroism|xphb|Heroísmo} e {@spell aid|xphb|Ajuda}, podendo conjurar cada uma delas uma vez por descanso longo sem gastar espaços de magia ou componentes materiais."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "str",
+              "con",
+              "cha"
+            ],
+            "amount": 1
+          }
+        }
+      ],
+      "additionalSpells": [
+        {
+          "innate": {
+            "_": {
+              "daily": {
+                "1": [
+                  "heroism|xphb",
+                  "aid|xphb"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "skillProficiencies": [
+        {
+          "athletics": true
+        }
+      ],
+      "resist": [
+        "cold"
+      ],
+      "conditionImmune": [
+        "frightened"
+      ]
+    },
+    {
+      "name": "Marca da Humildade",
+      "source": "CHRONOS",
+      "page": 1,
+      "category": "G",
+      "prerequisite": [
+        {
+          "other": "Ter realizado um ato de Humildade recente de altas proporções com repercussões profundas ou ser um Virtaryn"
+        }
+      ],
+      "entries": [
+        "Sua postura servil e desprovida de orgulho fortalece a união do grupo, concedendo os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Sabedoria ou Constituição aumenta em 1."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Força na Simplicidade",
+          "entries": [
+            "Você pode usar a ação Ajudar a uma distância de até 15 pés (4,5 metros). Quando você a utiliza, o aliado ganha um bônus nas rolagens do teste ou ataque igual ao seu Bônus de Proficiência (além da vantagem padrão concedida pela ação). Além disso, criaturas de tamanho Grande ou maior não possuem vantagem em jogadas de ataque contra você."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Escudo do Servo",
+          "entries": [
+            "Você ganha proficiência na perícia Medicina e resistência a dano de Força."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Magia Inata",
+          "entries": [
+            "Você aprende as magias {@spell shield of faith|xphb|Escudo da Fé} e {@spell calm emotions|xphb|Acalmar Emoções}, podendo conjurar cada uma delas uma vez por descanso longo sem gastar espaços de magia ou componentes materiais."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "wis",
+              "con"
+            ],
+            "amount": 1
+          }
+        }
+      ],
+      "additionalSpells": [
+        {
+          "innate": {
+            "_": {
+              "daily": {
+                "1": [
+                  "shield of faith|xphb",
+                  "calm emotions|xphb"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "skillProficiencies": [
+        {
+          "medicine": true
+        }
+      ],
+      "resist": [
+        "force"
+      ]
+    },
+    {
+      "name": "Marca da Paciência",
+      "source": "CHRONOS",
+      "page": 1,
+      "category": "G",
+      "prerequisite": [
+        {
+          "other": "Ter realizado um ato de Paciência recente de altas proporções com repercussões profundas ou ser um Virtaryn"
+        }
+      ],
+      "entries": [
+        "Sua serenidade diante do caos permite absorver os piores golpes, concedendo os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Constituição ou Sabedoria aumenta em 1."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Muralha de Serenidade",
+          "entries": [
+            "Ao sofrer dano, você pode usar sua Reação para reduzir o dano sofrido em um valor igual a {@dice 1d12} + seu modificador de Constituição + seu Bônus de Proficiência. Você pode usar este recurso um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos após concluir um descanso longo."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Foco Inabalável",
+          "entries": [
+            "Você tem vantagem em testes de resistência de Constituição para manter a Concentração em magias e ganha resistência a dano Elétrico."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Magia Inata",
+          "entries": [
+            "Você aprende as magias {@spell absorb elements|xphb|Absorver Elementos} e {@spell warding bond|xphb|Vínculo de Proteção}, podendo conjurar cada uma delas uma vez por descanso longo sem gastar espaços de magia ou componentes materiais."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "con",
+              "wis"
+            ],
+            "amount": 1
+          }
+        }
+      ],
+      "additionalSpells": [
+        {
+          "innate": {
+            "_": {
+              "daily": {
+                "1": [
+                  "absorb elements|xphb",
+                  "warding bond|xphb"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "resist": [
+        "lightning"
+      ]
+    },
+    {
+      "name": "Marca da Temperança",
+      "source": "CHRONOS",
+      "page": 1,
+      "category": "G",
+      "prerequisite": [
+        {
+          "other": "Ter realizado um ato de Temperança recente de altas proporções com repercussões profundas ou ser um Virtaryn"
+        }
+      ],
+      "entries": [
+        "O domínio absoluto sobre seus apetites e impulsos purifica seu organismo, concedendo os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Constituição ou Sabedoria aumenta em 1."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Corpo Purificado",
+          "entries": [
+            "Você é imune à condição Envenenado e a doenças mágicas ou não-mágicas. Você necessita consumir apenas um terço da quantidade de comida e água que normalmente precisaria para se sustentar."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Contenção Perfeita",
+          "entries": [
+            "Você é imune aos efeitos dos primeiros 5 níveis de Exaustão e ganha resistência a dano de Veneno."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Magia Inata",
+          "entries": [
+            "Você aprende as magias {@spell purify food and drink|xphb|Purificar Alimentos e Bebidas} e {@spell protection from poison|xphb|Proteção contra Veneno}, podendo conjurar cada uma delas uma vez por descanso longo sem gastar espaços de magia ou componentes materiais."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "con",
+              "wis"
+            ],
+            "amount": 1
+          }
+        }
+      ],
+      "additionalSpells": [
+        {
+          "innate": {
+            "_": {
+              "daily": {
+                "1": [
+                  "purify food and drink|xphb",
+                  "protection from poison|xphb"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "resist": [
+        "poison"
+      ],
+      "conditionImmune": [
+        "poisoned",
+        "disease"
+      ]
+    },
+    {
+      "name": "Marca da Diligência",
+      "source": "CHRONOS",
+      "page": 1,
+      "category": "G",
+      "prerequisite": [
+        {
+          "other": "Ter realizado um ato de Diligência recente de altas proporções com repercussões profundas ou ser um Virtaryn"
+        }
+      ],
+      "entries": [
+        "Sua obstinação incansável garante que falhas sejam convertidas em vitórias, concedendo os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Força, Destreza ou Constituição aumenta em 1."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Vontade Incansável",
+          "entries": [
+            "Uma vez por descanso curto, quando você errar uma jogada de ataque ou falhar em um teste de habilidade ou teste de resistência, você pode adicionar seu Bônus de Proficiência ao resultado total da rolagem, podendo transformar uma falha em sucesso. Falhar em um teste de habilidade, teste de resistência ou jogada de ataque recarrega imediatamente o uso desta habilidade."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Vigor Incessante",
+          "entries": [
+            "Nenhum efeito pode deixá-lo Caído (Prone) ou movê-lo contra a sua vontade. Você ganha resistência a dano de Trovão e seu deslocamento não pode ser reduzido por terreno difícil não-mágico."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Magia Inata",
+          "entries": [
+            "Você aprende as magias {@spell longstrider|xphb|Passos Longos} e {@spell enhance ability|xphb|Aprimorar Habilidade}, podendo conjurar cada uma delas uma vez por descanso longo sem gastar espaços de magia ou componentes materiais."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "str",
+              "dex",
+              "con"
+            ],
+            "amount": 1
+          }
+        }
+      ],
+      "additionalSpells": [
+        {
+          "innate": {
+            "_": {
+              "daily": {
+                "1": [
+                  "longstrider|xphb",
+                  "enhance ability|xphb"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "resist": [
+        "thunder"
+      ]
+    },
+    {
+      "name": "Marca da Luxúria",
+      "source": "CHRONOS",
+      "page": 1,
+      "category": "G",
+      "prerequisite": [
+        {
+          "other": "Ter cometido um ato de Luxúria recente de altas proporções que causou repercussões devastadoras ou ser um Nefaryn"
+        }
+      ],
+      "entries": [
+        "A tentação e o fascínio profano da luxúria moldam sua presença, concedendo os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Carisma aumenta em 1."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Encantamento Dissimulado",
+          "entries": [
+            "Quando você utiliza habilidades ou magias que controlam a vontade de outra criatura ou a deixam na condição Encantado, a criatura afetada não percebe que foi enfeitiçada, mesmo se passar no teste de resistência ou quando o efeito chegar ao fim."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Graça Seductora",
+          "entries": [
+            "Você ganha proficiência na perícia Persuasão e torna-se imune à condição Encantado."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Magia Inata",
+          "entries": [
+            "Você aprende as magias {@spell charm person|xphb|Enfeitiçar Pessoa} e {@spell suggestion|xphb|Sugestão}, podendo conjurar cada uma delas uma vez por descanso longo sem a necessidade de componentes verbais, somáticos ou materiais."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "cha"
+            ],
+            "amount": 1
+          }
+        }
+      ],
+      "additionalSpells": [
+        {
+          "innate": {
+            "_": {
+              "daily": {
+                "1": [
+                  "charm person|xphb",
+                  "suggestion|xphb"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "skillProficiencies": [
+        {
+          "persuasion": true
+        }
+      ],
+      "conditionImmune": [
+        "charmed"
+      ]
+    },
+    {
+      "name": "Marca da Mentira",
+      "source": "CHRONOS",
+      "page": 1,
+      "category": "G",
+      "prerequisite": [
+        {
+          "other": "Ter cometido um ato de Enganação recente de altas proporções que causou repercussões devastadoras ou ser um Nefaryn"
+        }
+      ],
+      "entries": [
+        "A falsidade e o engano corrompem a percepção daqueles ao seu redor, concedendo os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Carisma aumenta em 1."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Mente Ilusória",
+          "entries": [
+            "Uma vez por descanso curto ou longo, ao tentar enganar uma criatura com uma mentira, ilusão ou efeito similar, caso a criatura precise realizar um teste para notar a falsidade, você pode forçá-la a falhar automaticamente nesse teste."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Sombra da Falsidade",
+          "entries": [
+            "Você ganha proficiência na perícia Enganação e resistência a dano Psíquico."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Magia Inata",
+          "entries": [
+            "Você aprende as magias {@spell disguise self|xphb|Disfarçar-se} e {@spell mirror image|xphb|Reflexos}, podendo conjurar cada uma delas uma vez por descanso longo sem a necessidade de componentes verbais, somáticos ou materiais."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "cha"
+            ],
+            "amount": 1
+          }
+        }
+      ],
+      "additionalSpells": [
+        {
+          "innate": {
+            "_": {
+              "daily": {
+                "1": [
+                  "disguise self|xphb",
+                  "mirror image|xphb"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "skillProficiencies": [
+        {
+          "deception": true
+        }
+      ],
+      "resist": [
+        "psychic"
+      ]
+    },
+    {
+      "name": "Marca da Inveja",
+      "source": "CHRONOS",
+      "page": 1,
+      "category": "G",
+      "prerequisite": [
+        {
+          "other": "Ter cometido um ato de Inveja recente de altas proporções que causou repercussões devastadoras ou ser um Nefaryn"
+        }
+      ],
+      "entries": [
+        "O cobiçar desenfreado permite que você tome para si as bênçãos e conquistas alheias, concedendo os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Destreza ou Carisma aumenta em 1."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Usurpação do Mérito",
+          "entries": [
+            "Quando uma criatura que você possa ver recuperar pontos de vida, ganhar pontos de vida temporários, recuperar espaços de magia ou for alvo de um efeito que aumente seu deslocamento, Classe de Armadura ou valores de habilidade, você pode usar sua Reação para receber exatamente o mesmo efeito simultaneamente. Você pode usar este recurso um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos após um descanso longo."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Veno Imune",
+          "entries": [
+            "Você ganha resistência a dano de Veneno e imunidade à condição Envenenado."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Magia Inata",
+          "entries": [
+            "Você aprende as magias {@spell borrowed knowledge|scc|Conhecimento Emprestado} e {@spell gift of alacrity|egw|Dádiva da Alacridade}, podendo conjurar cada uma delas uma vez por descanso longo sem a necessidade de componentes."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "dex",
+              "cha"
+            ],
+            "amount": 1
+          }
+        }
+      ],
+      "additionalSpells": [
+        {
+          "innate": {
+            "_": {
+              "daily": {
+                "1": [
+                  "borrowed knowledge|scc",
+                  "gift of alacrity|egw"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "resist": [
+        "poison"
+      ],
+      "conditionImmune": [
+        "poisoned"
+      ]
+    },
+    {
+      "name": "Marca da Avareza",
+      "source": "CHRONOS",
+      "page": 1,
+      "category": "G",
+      "prerequisite": [
+        {
+          "other": "Ter cometido um ato de Avareza recente de altas proporções que causou repercussões devastadoras ou ser um Nefaryn"
+        }
+      ],
+      "entries": [
+        "Sua ganância insaciável permite roubar não apenas bens, mas a própria fortuna e recursos alheios, concedendo os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Destreza aumenta em 1."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Roubo de Fortuna",
+          "entries": [
+            "Uma vez por descanso longo, como uma Reação quando uma criatura que você possa ver for recuperar pontos de vida, ganhar pontos de vida temporários, recuperar recursos limitados (como espaços de magia que você também possua) ou receber um efeito de fortalecimento (como a magia Velocidade), você pode realizar um teste de Prestidigitação contra um teste de Percepção do alvo. Em caso de sucesso, você toma e ganha o benefício para si em vez da criatura alvo."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Visão Cobiçosa",
+          "entries": [
+            "Você ganha proficiência na perícia Prestidigitação e torna-se imune à condição Cego."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Magia Inata",
+          "entries": [
+            "Você aprende as magias {@spell locate object|xphb|Localizar Objeto} e {@spell incite greed|ai|Incitar Ganância}, podendo conjurar cada uma delas uma vez por descanso longo."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "dex"
+            ],
+            "amount": 1
+          }
+        }
+      ],
+      "additionalSpells": [
+        {
+          "innate": {
+            "_": {
+              "daily": {
+                "1": [
+                  "locate object|xphb",
+                  "incite greed|ai"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "skillProficiencies": [
+        {
+          "sleight of hand": true
+        }
+      ],
+      "conditionImmune": [
+        "blinded"
+      ]
+    },
+    {
+      "name": "Marca do Terror",
+      "source": "CHRONOS",
+      "page": 1,
+      "category": "G",
+      "prerequisite": [
+        {
+          "other": "Ter cometido um ato de Terror ou Covardia recente de altas proporções que causou repercussões devastadoras ou ser um Nefaryn"
+        }
+      ],
+      "entries": [
+        "A essência do medo alimenta sua vitalidade enquanto subjuga a mente dos fracos, concedendo os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Sabedoria ou Carisma aumenta em 1."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Banquete de Medo",
+          "entries": [
+            "Sempre que você causar a condição Amedrontado em uma criatura, você recebe Pontos de Vida Temporários iguais ao seu Nível de Personagem + Bônus de Proficiência + Nível de Desafio (ND) da Criatura afetada."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Presença Aterrorizante",
+          "entries": [
+            "Você ganha Expertise (o dobro do Bônus de Proficiência) em testes da perícia Intimidação e ganha resistência a dano Necrótico."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Magia Inata",
+          "entries": [
+            "Você aprende as magias {@spell cause fear|xge|Causar Medo} e {@spell darkness|xphb|Escuridão}, podendo conjurar cada uma delas uma vez por descanso longo."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "wis",
+              "cha"
+            ],
+            "amount": 1
+          }
+        }
+      ],
+      "additionalSpells": [
+        {
+          "innate": {
+            "_": {
+              "daily": {
+                "1": [
+                  "cause fear|xge",
+                  "darkness|xphb"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "resist": [
+        "necrotic"
+      ]
+    },
+    {
+      "name": "Marca do Orgulho",
+      "source": "CHRONOS",
+      "page": 1,
+      "category": "G",
+      "prerequisite": [
+        {
+          "other": "Ter cometido um ato de Orgulho recente de altas proporções que causou repercussões devastadoras ou ser um Nefaryn"
+        }
+      ],
+      "entries": [
+        "Sua vaidade e arrogância inabaláveis forçam os inferiores a curvarem-se perante sua presença, concedendo os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Carisma aumenta em 1."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Submissão Forçada",
+          "entries": [
+            "Uma vez por descanso curto, ao atingir uma criatura com um ataque corpo a corpo, você pode forçá-la a realizar um teste de resistência de Carisma (CD = 8 + seu modificador de Carisma + seu Bônus de Proficiência). Em caso de falha, a criatura é forçada a ajoelhar-se em submissão, caindo na condição Caído (Prone) até o início do seu próximo turno, quando deverá repetir o teste para tentar encerrar o efeito."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Soberania Absoluta",
+          "entries": [
+            "Você ganha resistência a dano Radiante e torna-se imune à condição Amedrontado."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Magia Inata",
+          "entries": [
+            "Você aprende as magias {@spell command|xphb|Comando} e {@spell crown of madness|xphb|Coroa da Loucura}, podendo conjurar cada uma delas uma vez por descanso longo."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "cha"
+            ],
+            "amount": 1
+          }
+        }
+      ],
+      "additionalSpells": [
+        {
+          "innate": {
+            "_": {
+              "daily": {
+                "1": [
+                  "command|xphb",
+                  "crown of madness|xphb"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "resist": [
+        "radiant"
+      ],
+      "conditionImmune": [
+        "frightened"
+      ]
+    },
+    {
+      "name": "Marca da Ira",
+      "source": "CHRONOS",
+      "page": 1,
+      "category": "G",
+      "prerequisite": [
+        {
+          "other": "Ter cometido um ato de Ira recente de altas proporções que causou repercussões devastadoras ou ser um Nefaryn"
+        }
+      ],
+      "entries": [
+        "O ódio fervilhante em seu sangue transforma a dor recebida em devastação imediata, concedendo os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Força ou Constituição aumenta em 1."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Retaliação Furiosa",
+          "entries": [
+            "Ao receber dano de uma criatura que você possa ver, você pode usar sua Reação para se mover até o equivalente ao seu deslocamento na direção da criatura e realizar imediatamente um ataque corpo a corpo com vantagem contra a criatura mais próxima. Este ataque retaliatório ignora quaisquer resistências a dano do alvo. Você pode usar este recurso um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos após um descanso longo."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Fúria Inabalável",
+          "entries": [
+            "Você ganha proficiência na perícia Atletismo e resistência a dano de Fogo."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Magia Inata",
+          "entries": [
+            "Você aprende as magias {@spell thunderous smite|xphb|Golpe Trovejante} e {@spell branding smite|xphb|Golpe Estigmatizante}, podendo conjurar cada uma delas uma vez por descanso longo sem a necessidade de componentes."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "str",
+              "con"
+            ],
+            "amount": 1
+          }
+        }
+      ],
+      "additionalSpells": [
+        {
+          "innate": {
+            "_": {
+              "daily": {
+                "1": [
+                  "thunderous smite|xphb",
+                  "branding smite|xphb"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "skillProficiencies": [
+        {
+          "athletics": true
+        }
+      ],
+      "resist": [
+        "fire"
+      ]
+    },
+    {
+      "name": "Marca da Gula",
+      "source": "CHRONOS",
+      "page": 1,
+      "category": "G",
+      "prerequisite": [
+        {
+          "other": "Ter cometido um ato de Gula recente de altas proporções que causou repercussões devastadoras ou ser um Nefaryn"
+        }
+      ],
+      "entries": [
+        "Sua fome insaciável consome a vitalidade dos inimigos e assimila qualquer substância, concedendo os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Constituição aumenta em 1."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Devorar Vitalidade",
+          "entries": [
+            "Ao causar dano a uma criatura com um ataque corpo a corpo, você pode usar sua Reação para recuperar Pontos de Vida iguais à metade do dano causado por aquele ataque (até um máximo de 10 Pontos de Vida recuperados por uso). Você pode usar este recurso um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos após um descanso longo."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Consumo Digestivo Absoluto",
+          "entries": [
+            "Você pode consumir qualquer tipo de alimento, líquido ou substância — mesmo aqueles que seriam tóxicos, estragados ou venenosos — sem sofrer nenhum tipo de efeito adverso ou dano."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Resiliência Estomacal",
+          "entries": [
+            "Você ganha resistência a dano de Ácido e vantagem em testes de resistência contra venenos e toxinas."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Magia Inata",
+          "entries": [
+            "Você aprende as magias {@spell create food and water|xphb|Criar Alimentos e Água} e {@spell enlarge/reduce|xphb|Aumentar/Reduzir}, podendo conjurar cada uma delas uma vez por descanso longo."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "con"
+            ],
+            "amount": 1
+          }
+        }
+      ],
+      "additionalSpells": [
+        {
+          "innate": {
+            "_": {
+              "daily": {
+                "1": [
+                  "create food and water|xphb",
+                  "enlarge/reduce|xphb"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "resist": [
+        "acid"
+      ]
+    },
+    {
+      "name": "Marca da Preguiça",
+      "source": "CHRONOS",
+      "page": 1,
+      "category": "G",
+      "prerequisite": [
+        {
+          "other": "Ter cometido um ato de Preguiça recente de altas proporções que causou repercussões devastadoras ou ser um Nefaryn"
+        }
+      ],
+      "entries": [
+        "Sua inércia torna seu corpo denso e sua mente indiferente às pressões do mundo, concedendo os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Sabedoria aumenta em 1."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Inércia Defensiva",
+          "entries": [
+            "Uma vez por descanso curto, ao falhar em um teste de resistência de Destreza, você pode usar sua Reação para substituir o resultado do teste pelo seu modificador de Constituição."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Massa Inamovível",
+          "entries": [
+            "Você tem vantagem em testes de resistência para evitar ser derrubado (Caído / Prone), para resistir à condição Exaustão, e em testes de resistência para evitar ser movido contra a sua vontade."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Gelo da Apatia",
+          "entries": [
+            "Você ganha resistência a dano de Frio."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Magia Inata",
+          "entries": [
+            "Você aprende as magias {@spell sleep|xphb|Sono} e {@spell silence|xphb|Silêncio}, podendo conjurar cada uma delas uma vez por descanso longo."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "wis"
+            ],
+            "amount": 1
+          }
+        }
+      ],
+      "additionalSpells": [
+        {
+          "innate": {
+            "_": {
+              "daily": {
+                "1": [
+                  "sleep|xphb",
+                  "silence|xphb"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "resist": [
+        "cold"
+      ]
+    },
+    {
+      "name": "Adaptado à Tundra",
+      "source": "CHRONOS",
+      "page": 1,
+      "category": "G",
+      "entries": [
+        "O gelo e a neve não são obstáculos para você, mas sim seu campo de caça. Seu sangue corre quente mesmo nas nevascas mais mortais.",
+        "Você adaptou-se perfeitamente aos ambientes mais congelantes do mundo, ganhando os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Constituição aumenta em 1, até o máximo de 20."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Resistência Congelante",
+          "entries": [
+            "Você é naturalmente aclimatado a altitudes elevadas e temperaturas frias extremas, não sofrendo os efeitos adversos de climas congelantes. Além disso, você tem resistência a dano de Frio."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Passo do Gelo",
+          "entries": [
+            "Neve e gelo não impõem custo de deslocamento extra a você, e você não deixa rastros nessas superfícies, a menos que escolha fazê-lo."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Forrageador Ártico",
+          "entries": [
+            "Você tem vantagem em testes de Sabedoria (Sobrevivência) realizados para forragear alimentos sob o gelo e para rastrear criaturas na neve."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "con"
+            ],
+            "amount": 1,
+            "max": 20
+          }
+        }
+      ],
+      "resist": [
+        "cold"
+      ]
+    },
+    {
+      "name": "Adaptado ao Deserto",
+      "source": "CHRONOS",
+      "page": 1,
+      "category": "G",
+      "entries": [
+        "Forjado sob o sol implacável e a aridez dos desertos, seu corpo se tornou incrivelmente eficiente em preservar recursos e suportar altas temperaturas.",
+        "Você domina a sobrevivência sob o calor e a aridez extrema, ganhando os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Constituição aumenta em 1, até o máximo de 20."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Resistência Árida",
+          "entries": [
+            "Você é naturalmente aclimatado a climas de calor extremo, não sofrendo os efeitos adversos de tais ambientes, e suas necessidades diárias de água são reduzidas pela metade. Além disso, você tem resistência a dano de Fogo."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Sentido da Água",
+          "entries": [
+            "Você tem vantagem em testes de Sabedoria (Sobrevivência) para encontrar fontes de água no ambiente e sabe instintivamente se a água encontrada é potável, venenosa ou amaldiçoada."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Mimetismo Solar",
+          "entries": [
+            "Enquanto estiver sob luz solar plena ou em terrenos de deserto e savana, criaturas que dependam da visão sofrem desvantagem em rolagens de Iniciativa contra você. Além disso, você pode tentar se esconder mesmo quando estiver apenas levemente obscurecido por miragens, tempestades de areia ou pelo forte brilho do sol."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "con"
+            ],
+            "amount": 1,
+            "max": 20
+          }
+        }
+      ],
+      "resist": [
+        "fire"
+      ]
+    },
+    {
+      "name": "Adaptado à Selva",
+      "source": "CHRONOS",
+      "page": 1,
+      "category": "G",
+      "entries": [
+        "Sua vivência sob o dossel úmido e as sombras das matas densas afiou seus instintos contra doenças mortais e predadores ocultos.",
+        "Você tornou-se um predador nato em biomas fechados e úmidos, ganhando os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Constituição ou Sabedoria aumenta em 1, até o máximo de 20."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Agilidade de Dossel",
+          "entries": [
+            "Quando estiver em ambientes de floresta, pântano ou selva, você ganha um deslocamento de Escalada igual ao seu deslocamento base de caminhada."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Conhecimento das Toxinas",
+          "entries": [
+            "Você tem vantagem em testes de resistência para não contrair doenças e em testes para identificar flora perigosa, criaturas venenosas, venenos e toxinas naturais. Testes de conhecimento sobre estes assuntos podem ser realizados usando Sabedoria (em vez de Inteligência)."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Imunidade Tropical",
+          "entries": [
+            "Você tem resistência a dano de Veneno."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Tiro sem Barreiras",
+          "entries": [
+            "Folhagens densas, chuvas fortes e vegetação rasteira não oferecem meia cobertura ou cobertura de três quartos contra os seus ataques."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "con",
+              "wis"
+            ],
+            "amount": 1,
+            "max": 20
+          }
+        }
+      ],
+      "resist": [
+        "poison"
+      ],
+      "speed": {
+        "climb": true
+      }
+    },
+    {
+      "name": "Adaptado às Montanhas",
+      "source": "CHRONOS",
+      "page": 1,
+      "category": "G",
+      "entries": [
+        "Nascido nos picos das montanhas, você não teme a gravidade. Seus músculos e tendões possuem uma força de tração inigualável.",
+        "Você domina as alturas e os terrenos rochosos mais íngremes, ganhando os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Força ou Destreza aumenta em 1, até o máximo de 20."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Escalador Inabalável",
+          "entries": [
+            "Você ganha um deslocamento de Escalada igual ao seu deslocamento base de caminhada. Atravessar e escalar superfícies escorregadias ou estreitas não requer testes de habilidade, e você não pode cair dessas superfícies a menos que seja empurrado ativamente por um efeito externo."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Empunhadura Firme",
+          "entries": [
+            "Você é imune a efeitos que tentem remover um objeto de suas mãos e tem vantagem em testes para se agarrar a bordas e saliências caso comece a cair."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Ataque em Queda",
+          "entries": [
+            "Quando você realiza um ataque com arma corpo a corpo após cair intencionalmente pelo menos 10 pés (3 metros) em direção a um alvo, o ataque causa um dado extra de dano do tipo da arma, e você reduz o dano de queda que sofreria em um valor igual ao triplo do seu nível de personagem."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "str",
+              "dex"
+            ],
+            "amount": 1,
+            "max": 20
+          }
+        }
+      ],
+      "speed": {
+        "climb": true
+      }
+    },
+    {
+      "name": "Adaptado às Cavernas",
+      "source": "CHRONOS",
+      "page": 1,
+      "category": "G",
+      "entries": [
+        "Você abraçou o escuro opressivo do mundo subterrâneo. Sua audição e sensibilidade espacial guiam você por labirintos de pedra.",
+        "Você navega com maestria pela escuridão e pelos trechos subterrâneos, ganhando os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Inteligência ou Sabedoria aumenta em 1, até o máximo de 20."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Percepção Sonar",
+          "entries": [
+            "Enquanto estiver no subsolo ou em ambientes fechados silenciosos, você ganha Percepção às Cegas (Blindsight) num alcance de 10 pés (3 metros)."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Passo Silencioso",
+          "entries": [
+            "Você tem vantagem em testes de Destreza (Furtividade) realizados para se mover silenciosamente em superfícies rochosas ou corredores estreitos."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Sentido Subterrâneo",
+          "entries": [
+            "Enquanto estiver no subsolo, você sempre sabe para qual direção fica o norte. Além disso, você não pode se perder por meios não-mágicos e consegue lembrar-se perfeitamente de qualquer caminho ou ramificação que tenha percorrido."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "int",
+              "wis"
+            ],
+            "amount": 1,
+            "max": 20
+          }
+        }
+      ]
+    },
+    {
+      "name": "Adaptado ao Mar",
+      "source": "CHRONOS",
+      "page": 1,
+      "category": "G",
+      "entries": [
+        "Nascido em costas implacáveis, arquipélagos ou no convés de navios, você viveu desde cedo com marés, correntes e conviveu com aqueles que dependem delas.",
+        "Você possui uma ligação profunda com os oceanos e o estilo de vida marítimo, ganhando os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Força, Constituição ou Carisma aumenta em 1, até o máximo de 20."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Navegador Anfíbio",
+          "entries": [
+            "Você ganha deslocamento de Natação igual ao seu deslocamento de caminhada e pode prender a respiração pelo dobro do tempo normal."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Mestre das Marés",
+          "entries": [
+            "Você tem vantagem em testes de Sabedoria (Sobrevivência) para prever mudanças climáticas extremas, identificar correntes marítimas e calcular rotas de navegação seguras, além de ganhar proficiência com Veículos (Aquáticos)."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Código dos Portos",
+          "entries": [
+            "Você ententende um dialeto secreto composto por gírias de navegação, sinais de lanternas e marcações discretas nos cascos dos navios, conseguindo esconder mensagens complexas em conversas mundanas (como manifestos de carga ou taxas portuárias) que apenas outros iniciados entendem. Além disso, ao chegar a um porto, você identifica instintivamente quem é receptivo a subornos, quais docas possuem fiscalização frouxa e onde encontrar contrabando."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "str",
+              "con",
+              "cha"
+            ],
+            "amount": 1,
+            "max": 20
+          }
+        }
+      ],
+      "speed": {
+        "swim": true
+      }
+    },
+    {
+      "name": "Adaptação Cultural",
+      "source": "CHRONOS",
+      "page": 1,
+      "category": "G",
+      "entries": [
+        "A sua capacidade de entender pessoas e costumes permite que você se sinta em casa em qualquer metrópole ou feira do mundo.",
+        "Sua habilidade diplomática e social abre portas em qualquer civilização, concedendo os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Inteligência ou Carisma aumenta em 1, até o máximo de 20."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Navegação Burocrática",
+          "entries": [
+            "Você sabe instintivamente como navegar pelas formalidades e burocracias de culturas estrangeiras. Você tem vantagem em testes de Carisma (Persuasão) ou Sabedoria (Intuição) ao negociar contratos, tarifas comerciais ou ao tentar obter favores de autoridades locais."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Assimilação Rápida",
+          "entries": [
+            "Você aprende o básico para se comunicar e entender os costumes de uma nova cultura ou idioma não-secreto após conviver apenas três dias naquele meio social."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Contatos Locais",
+          "entries": [
+            "Ao chegar em qualquer vila, feira ou metrópole, você sabe exatamente qual é a pessoa ou guilda que deve procurar para encontrar abrigo seguro, trabalho ou rotas de caravanas confiáveis."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "int",
+              "cha"
+            ],
+            "amount": 1,
+            "max": 20
+          }
+        }
+      ]
+    },
+    {
+      "name": "Adaptado ao Flagelo",
+      "source": "CHRONOS",
+      "page": 1,
+      "category": "G",
+      "entries": [
+        "Nascido em lodaçais estagnados, campos de batalha esquecidos ou terras corrompidas por magias sombrias, você aprendeu a sobreviver onde o próprio ar tenta devorar os vivos. A lama negra, os vapores tóxicos e as ruínas retorcidas são o seu lar.",
+        "Sua resiliência permite que você prosperar em regiões desoladas e corrompidas, ganhando os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Constituição ou Sabedoria aumenta em 1, até o máximo de 20."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Passo do Lodo",
+          "entries": [
+            "Você ignora terreno difícil causado por lama, águas turvas, pilhas de corpos, cinzas espessas, raízes e flora distorcida. Além disso, tem vantagem em testes para encontrar e escapar de armadilhas naturais (como areia movediça e sumidouros) e para perceber criaturas escondidas entre os mortos ou em águas rasas."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Pulmões Resilientes",
+          "entries": [
+            "Seu corpo acostumou-se aos miasmas e à decomposição. Você tem vantagem em testes de resistência contra doenças, gases tóxicos e venenos inalados ou ingeridos."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Sentido da Corrupção",
+          "entries": [
+            "Você tem vantagem em testes para identificar se comida ou água está contaminada, envenenada ou amaldiçoada. Além disso, sabe identificar instintivamente se uma área pantanosa ou devastada possui forte influência do Inverso ou de mortos-vivos apenas observando a perturbação na natureza ao redor."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "con",
+              "wis"
+            ],
+            "amount": 1,
+            "max": 20
+          }
+        }
+      ]
+    },
+    {
+      "name": "Adestrador de Feras",
+      "source": "CHRONOS",
+      "page": 1,
+      "category": "G",
+      "entries": [
+        "Sua afinidade natural com a vida selvagem permite domar e comandar criaturas da natureza com facilidade.",
+        "Você desenvolveu uma profunda conexão com bestas do mundo natural, ganhando os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Afinidade Selvagem",
+          "entries": [
+            "Bestas não-mágicas são inicialmente indiferentes ou amigáveis em relação a você. Além disso, você tem vantagem em testes de Sabedoria (Lidar com Animais) para adestrá-las ou acalmá-las."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Companheiro Animal",
+          "entries": [
+            "Após dedicar 8 horas contínuas de treinamento, você cria um vínculo com uma Besta de Nível de Desafio (ND) máximo igual ao seu nível de personagem dividido por 4 (mínimo ND 0). Em combate, a besta rola sua própria iniciativa e age no próprio turno, realizando a ação de Esquiva, a menos que você use sua Ação Bônus para comandar que ela realize as ações de Ataque, Disparar, Desengajar ou Ajudar. Você só pode manter o vínculo com um companheiro animal por vez."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Carniceiro",
+      "source": "CHRONOS",
+      "page": 1,
+      "category": "G",
+      "entries": [
+        "Sua habilidade cirúrgica com carcaças garante que nenhum recurso de uma fera abatida seja desperdiçado.",
+        "Você domina o aproveitamento biológico de criaturas mortas, ganhando os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Sabedoria aumenta em 1, até o máximo de 20."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Extração de Suprimentos",
+          "entries": [
+            "Ao gastar 10 minutos trabalhando em uma carcaça recém-abatida, você pode realizar um teste de Sabedoria (Sobrevivência) com CD 15. Em caso de sucesso, você extrai rações purificadas e livres de toxinas suficientes para alimentar um número de criaturas igual ao seu Bônus de Proficiência."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Colheita de Componentes",
+          "entries": [
+            "Você tem vantagem em testes de habilidade para extrair componentes valiosos e intactos (como peçonha, couro, presas, garras ou órgãos arcanos) de inimigos abatidos para venda ou criação de itens."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "wis"
+            ],
+            "amount": 1,
+            "max": 20
+          }
+        }
+      ]
+    }
+  ]
+}

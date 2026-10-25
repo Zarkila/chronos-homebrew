@@ -1,0 +1,3458 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "CHRONOS",
+        "abbreviation": "CHR",
+        "full": "Guia para Chronos",
+        "authors": [
+          "Homebrew"
+        ],
+        "convertedBy": [],
+        "version": "1.0.0"
+      }
+    ],
+    "dateAdded": 1792951172,
+    "dateLastModified": 1792951456
+  },
+  "feat": [
+    {
+      "name": "Marca da Castidade",
+      "source": "CHRONOS",
+      "category": "G",
+      "prerequisite": [
+        {
+          "other": "Ter realizado um ato de Castidade recente de altas proporções com repercussões profundas ou ser um Virtaryn"
+        }
+      ],
+      "entries": [
+        "Você carrega em seu ser a pureza inviolável da castidade divina, concedendo os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Sabedoria ou Carisma aumenta em 1."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Mente Inviolável",
+          "entries": [
+            "Você é imune à condição Encantado. Sempre que uma criatura tentar controlar sua mente ou encantá-lo e falhar, ela sofre dano psíquico igual ao seu Bônus de Proficiência + seu modificador de Carisma."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Escudo Mental Compartilhado",
+          "entries": [
+            "Uma vez por descanso longo, como uma Reação quando um aliado que você possa ver for alvo de uma magia ou efeito que tente encantá-lo ou controlar sua mente, você pode conceder a ele vantagem no teste para resistir ao efeito."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Graça Imaculada",
+          "entries": [
+            "Você ganha proficiência na perícia Intuição e resistência a dano de Fogo."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Magia Inata",
+          "entries": [
+            "Você aprende as magias {@spell protection from evil and good|xphb|Proteção contra o Bem e o Mal} e {@spell lesser restoration|xphb|Restauração Menor}, podendo conjurar cada uma delas uma vez por descanso longo sem gastar espaços de magia ou componentes materiais."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "wis",
+              "cha"
+            ],
+            "amount": 1
+          }
+        }
+      ],
+      "additionalSpells": [
+        {
+          "innate": {
+            "_": {
+              "daily": {
+                "1": [
+                  "protection from evil and good|xphb",
+                  "lesser restoration|xphb"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "skillProficiencies": [
+        {
+          "insight": true
+        }
+      ],
+      "resist": [
+        "fire"
+      ],
+      "conditionImmune": [
+        "charmed"
+      ]
+    },
+    {
+      "name": "Marca da Honestidade",
+      "source": "CHRONOS",
+      "category": "G",
+      "prerequisite": [
+        {
+          "other": "Ter realizado um ato de Honestidade recente de altas proporções com repercussões profundas ou ser um Virtaryn"
+        }
+      ],
+      "entries": [
+        "A verdade sagrada reside em sua mente e em seus olhos, concedendo os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Sabedoria ou Inteligência aumenta em 1."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Olho da Verdade",
+          "entries": [
+            "Você tem vantagem em testes de Intuição e Investigação para perceber ilusões, disfarces e mentiras. Além disso, suas ações não podem ser controladas por meios mágicos."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Véu Revelado",
+          "entries": [
+            "Você ganha proficiência em testes de resistência de Intuição e resistência a dano Psíquico."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Magia Inata",
+          "entries": [
+            "Você aprende as magias {@spell detect evil and good|xphb|Detectar o Bem e o Mal} e {@spell zone of truth|xphb|Zona da Verdade}, podendo conjurar cada uma delas uma vez por descanso longo sem gastar espaços de magia ou componentes materiais."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "wis",
+              "int"
+            ],
+            "amount": 1
+          }
+        }
+      ],
+      "additionalSpells": [
+        {
+          "innate": {
+            "_": {
+              "daily": {
+                "1": [
+                  "detect evil and good|xphb",
+                  "zone of truth|xphb"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "resist": [
+        "psychic"
+      ]
+    },
+    {
+      "name": "Marca do Contentamento",
+      "source": "CHRONOS",
+      "category": "G",
+      "prerequisite": [
+        {
+          "other": "Ter realizado um ato de Contentamento/Desapego recente de altas proporções com repercussões profundas ou ser um Virtaryn"
+        }
+      ],
+      "entries": [
+        "A paz com a sua própria existência protege sua mente contra manipulações mundanas, concedendo os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Sabedoria ou Constituição aumenta em 1."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Espírito Inabalável",
+          "entries": [
+            "Você é imune a ter seus pensamentos lidos contra a sua vontade e possui vantagem em testes de resistência contra magias das escolas de Ilusão e Encantamento."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Paz Interior",
+          "entries": [
+            "Você ganha proficiência em testes de resistência contra a condição Amedrontado (ou vantagem se já for proficiente) e resistência a dano Necrótico."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Magia Inata",
+          "entries": [
+            "Você aprende as magias {@spell sanctuary|xphb|Santuário} e {@spell calm emotions|xphb|Acalmar Emoções}, podendo conjurar cada uma delas uma vez por descanso longo sem gastar espaços de magia ou componentes materiais."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "wis",
+              "con"
+            ],
+            "amount": 1
+          }
+        }
+      ],
+      "additionalSpells": [
+        {
+          "innate": {
+            "_": {
+              "daily": {
+                "1": [
+                  "sanctuary|xphb",
+                  "calm emotions|xphb"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "resist": [
+        "necrotic"
+      ]
+    },
+    {
+      "name": "Marca da Generosidade",
+      "source": "CHRONOS",
+      "category": "G",
+      "prerequisite": [
+        {
+          "other": "Ter realizado um ato extraordinário de Generosidade com repercussões profundas ou ser um Virtaryn"
+        }
+      ],
+      "entries": [
+        "Sua capacidade de doação nutre a força vital daqueles ao seu redor, concedendo os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Sabedoria ou Carisma aumenta em 1."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Fluxo Vital",
+          "entries": [
+            "Uma vez por turno, quando você usa uma magia ou habilidade de 1º nível ou superior que cura ou concede pontos de vida temporários a uma criatura, você pode gastar um Dado de Vida para dobrar o efeito da cura ou dos pontos de vida temporários concedidos. Você pode usar esta habilidade um número de vezes igual ao seu Bônus de Proficiência, recuperando os usos após um descanso longo."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Dádiva Imutável",
+          "entries": [
+            "Você ganha proficiência na perícia Intuição e resistência a dano de Ácido."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Magia Inata",
+          "entries": [
+            "Você aprende as magias {@spell cure wounds|xphb|Curar Ferimentos} e {@spell aid|xphb|Ajuda}, podendo conjurar cada uma delas uma vez por descanso longo sem gastar espaços de magia ou componentes materiais."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "wis",
+              "cha"
+            ],
+            "amount": 1
+          }
+        }
+      ],
+      "additionalSpells": [
+        {
+          "innate": {
+            "_": {
+              "daily": {
+                "1": [
+                  "cure wounds|xphb",
+                  "aid|xphb"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "skillProficiencies": [
+        {
+          "insight": true
+        }
+      ],
+      "resist": [
+        "acid"
+      ]
+    },
+    {
+      "name": "Marca da Coragem",
+      "source": "CHRONOS",
+      "category": "G",
+      "prerequisite": [
+        {
+          "other": "Ter realizado um ato de Coragem recente de altas proporções com repercussões profundas ou ser um Virtaryn"
+        }
+      ],
+      "entries": [
+        "O ardor da bravura inspira você e seus aliados no campo de batalha, concedendo os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Força, Constituição ou Carisma aumenta em 1."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Faro da Esperança",
+          "entries": [
+            "Você é imune à condição Amedrontado. Aliados a até 9 metros de você ganham vantagem em testes de resistência para resistir ao medo."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Espírito Intrépido",
+          "entries": [
+            "Você ganha proficiência na perícia Atletismo e resistência a dano de Frio."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Magia Inata",
+          "entries": [
+            "Você aprende as magias {@spell heroism|xphb|Heroísmo} e {@spell aid|xphb|Ajuda}, podendo conjurar cada uma delas uma vez por descanso longo sem gastar espaços de magia ou componentes materiais."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "str",
+              "con",
+              "cha"
+            ],
+            "amount": 1
+          }
+        }
+      ],
+      "additionalSpells": [
+        {
+          "innate": {
+            "_": {
+              "daily": {
+                "1": [
+                  "heroism|xphb",
+                  "aid|xphb"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "skillProficiencies": [
+        {
+          "athletics": true
+        }
+      ],
+      "resist": [
+        "cold"
+      ],
+      "conditionImmune": [
+        "frightened"
+      ]
+    },
+    {
+      "name": "Marca da Humildade",
+      "source": "CHRONOS",
+      "category": "G",
+      "prerequisite": [
+        {
+          "other": "Ter realizado um ato de Humildade recente de altas proporções com repercussões profundas ou ser um Virtaryn"
+        }
+      ],
+      "entries": [
+        "Sua postura servil e desprovida de orgulho fortalece a união do grupo, concedendo os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Sabedoria ou Constituição aumenta em 1."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Força na Simplicidade",
+          "entries": [
+            "Você pode usar a ação Ajudar a uma distância de até 15 pés (4,5 metros). Quando você a utiliza, o aliado ganha um bônus nas rolagens do teste ou ataque igual ao seu Bônus de Proficiência (além da vantagem padrão concedida pela ação). Além disso, criaturas de tamanho Grande ou maior não possuem vantagem em jogadas de ataque contra você."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Escudo do Servo",
+          "entries": [
+            "Você ganha proficiência na perícia Medicina e resistência a dano de Força."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Magia Inata",
+          "entries": [
+            "Você aprende as magias {@spell shield of faith|xphb|Escudo da Fé} e {@spell calm emotions|xphb|Acalmar Emoções}, podendo conjurar cada uma delas uma vez por descanso longo sem gastar espaços de magia ou componentes materiais."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "wis",
+              "con"
+            ],
+            "amount": 1
+          }
+        }
+      ],
+      "additionalSpells": [
+        {
+          "innate": {
+            "_": {
+              "daily": {
+                "1": [
+                  "shield of faith|xphb",
+                  "calm emotions|xphb"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "skillProficiencies": [
+        {
+          "medicine": true
+        }
+      ],
+      "resist": [
+        "force"
+      ]
+    },
+    {
+      "name": "Marca da Paciência",
+      "source": "CHRONOS",
+      "category": "G",
+      "prerequisite": [
+        {
+          "other": "Ter realizado um ato de Paciência recente de altas proporções com repercussões profundas ou ser um Virtaryn"
+        }
+      ],
+      "entries": [
+        "Sua serenidade diante do caos permite absorver os piores golpes, concedendo os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Constituição ou Sabedoria aumenta em 1."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Muralha de Serenidade",
+          "entries": [
+            "Ao sofrer dano, você pode usar sua Reação para reduzir o dano sofrido em um valor igual a {@dice 1d12} + seu modificador de Constituição + seu Bônus de Proficiência. Você pode usar este recurso um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos após concluir um descanso longo."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Foco Inabalável",
+          "entries": [
+            "Você tem vantagem em testes de resistência de Constituição para manter a Concentração em magias e ganha resistência a dano Elétrico."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Magia Inata",
+          "entries": [
+            "Você aprende as magias {@spell absorb elements|xphb|Absorver Elementos} e {@spell warding bond|xphb|Vínculo de Proteção}, podendo conjurar cada uma delas uma vez por descanso longo sem gastar espaços de magia ou componentes materiais."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "con",
+              "wis"
+            ],
+            "amount": 1
+          }
+        }
+      ],
+      "additionalSpells": [
+        {
+          "innate": {
+            "_": {
+              "daily": {
+                "1": [
+                  "absorb elements|xphb",
+                  "warding bond|xphb"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "resist": [
+        "lightning"
+      ]
+    },
+    {
+      "name": "Marca da Temperança",
+      "source": "CHRONOS",
+      "category": "G",
+      "prerequisite": [
+        {
+          "other": "Ter realizado um ato de Temperança recente de altas proporções com repercussões profundas ou ser um Virtaryn"
+        }
+      ],
+      "entries": [
+        "O domínio absoluto sobre seus apetites e impulsos purifica seu organismo, concedendo os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Constituição ou Sabedoria aumenta em 1."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Corpo Purificado",
+          "entries": [
+            "Você é imune à condição Envenenado e a doenças mágicas ou não-mágicas. Você necessita consumir apenas um terço da quantidade de comida e água que normalmente precisaria para se sustentar."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Contenção Perfeita",
+          "entries": [
+            "Você é imune aos efeitos dos primeiros 5 níveis de Exaustão e ganha resistência a dano de Veneno."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Magia Inata",
+          "entries": [
+            "Você aprende as magias {@spell purify food and drink|xphb|Purificar Alimentos e Bebidas} e {@spell protection from poison|xphb|Proteção contra Veneno}, podendo conjurar cada uma delas uma vez por descanso longo sem gastar espaços de magia ou componentes materiais."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "con",
+              "wis"
+            ],
+            "amount": 1
+          }
+        }
+      ],
+      "additionalSpells": [
+        {
+          "innate": {
+            "_": {
+              "daily": {
+                "1": [
+                  "purify food and drink|xphb",
+                  "protection from poison|xphb"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "resist": [
+        "poison"
+      ],
+      "conditionImmune": [
+        "poisoned",
+        "disease"
+      ]
+    },
+    {
+      "name": "Marca da Diligência",
+      "source": "CHRONOS",
+      "category": "G",
+      "prerequisite": [
+        {
+          "other": "Ter realizado um ato de Diligência recente de altas proporções com repercussões profundas ou ser um Virtaryn"
+        }
+      ],
+      "entries": [
+        "Sua obstinação incansável garante que falhas sejam convertidas em vitórias, concedendo os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Força, Destreza ou Constituição aumenta em 1."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Vontade Incansável",
+          "entries": [
+            "Uma vez por descanso curto, quando você errar uma jogada de ataque ou falhar em um teste de habilidade ou teste de resistência, você pode adicionar seu Bônus de Proficiência ao resultado total da rolagem, podendo transformar uma falha em sucesso. Falhar em um teste de habilidade, teste de resistência ou jogada de ataque recarrega imediatamente o uso desta habilidade."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Vigor Incessante",
+          "entries": [
+            "Nenhum efeito pode deixá-lo Caído (Prone) ou movê-lo contra a sua vontade. Você ganha resistência a dano de Trovão e seu deslocamento não pode ser reduzido por terreno difícil não-mágico."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Magia Inata",
+          "entries": [
+            "Você aprende as magias {@spell longstrider|xphb|Passos Longos} e {@spell enhance ability|xphb|Aprimorar Habilidade}, podendo conjurar cada uma delas uma vez por descanso longo sem gastar espaços de magia ou componentes materiais."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "str",
+              "dex",
+              "con"
+            ],
+            "amount": 1
+          }
+        }
+      ],
+      "additionalSpells": [
+        {
+          "innate": {
+            "_": {
+              "daily": {
+                "1": [
+                  "longstrider|xphb",
+                  "enhance ability|xphb"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "resist": [
+        "thunder"
+      ]
+    },
+    {
+      "name": "Marca da Luxúria",
+      "source": "CHRONOS",
+      "category": "G",
+      "prerequisite": [
+        {
+          "other": "Ter cometido um ato de Luxúria recente de altas proporções que causou repercussões devastadoras ou ser um Nefaryn"
+        }
+      ],
+      "entries": [
+        "A tentação e o fascínio profano da luxúria moldam sua presença, concedendo os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Carisma aumenta em 1."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Encantamento Dissimulado",
+          "entries": [
+            "Quando você utiliza habilidades ou magias que controlam a vontade de outra criatura ou a deixam na condição Encantado, a criatura afetada não percebe que foi enfeitiçada, mesmo se passar no teste de resistência ou quando o efeito chegar ao fim."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Graça Seductora",
+          "entries": [
+            "Você ganha proficiência na perícia Persuasão e torna-se imune à condição Encantado."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Magia Inata",
+          "entries": [
+            "Você aprende as magias {@spell charm person|xphb|Enfeitiçar Pessoa} e {@spell suggestion|xphb|Sugestão}, podendo conjurar cada uma delas uma vez por descanso longo sem a necessidade de componentes verbais, somáticos ou materiais."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "cha"
+            ],
+            "amount": 1
+          }
+        }
+      ],
+      "additionalSpells": [
+        {
+          "innate": {
+            "_": {
+              "daily": {
+                "1": [
+                  "charm person|xphb",
+                  "suggestion|xphb"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "skillProficiencies": [
+        {
+          "persuasion": true
+        }
+      ],
+      "conditionImmune": [
+        "charmed"
+      ]
+    },
+    {
+      "name": "Marca da Mentira",
+      "source": "CHRONOS",
+      "category": "G",
+      "prerequisite": [
+        {
+          "other": "Ter cometido um ato de Enganação recente de altas proporções que causou repercussões devastadoras ou ser um Nefaryn"
+        }
+      ],
+      "entries": [
+        "A falsidade e o engano corrompem a percepção daqueles ao seu redor, concedendo os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Carisma aumenta em 1."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Mente Ilusória",
+          "entries": [
+            "Uma vez por descanso curto ou longo, ao tentar enganar uma criatura com uma mentira, ilusão ou efeito similar, caso a criatura precise realizar um teste para notar a falsidade, você pode forçá-la a falhar automaticamente nesse teste."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Sombra da Falsidade",
+          "entries": [
+            "Você ganha proficiência na perícia Enganação e resistência a dano Psíquico."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Magia Inata",
+          "entries": [
+            "Você aprende as magias {@spell disguise self|xphb|Disfarçar-se} e {@spell mirror image|xphb|Reflexos}, podendo conjurar cada uma delas uma vez por descanso longo sem a necessidade de componentes verbais, somáticos ou materiais."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "cha"
+            ],
+            "amount": 1
+          }
+        }
+      ],
+      "additionalSpells": [
+        {
+          "innate": {
+            "_": {
+              "daily": {
+                "1": [
+                  "disguise self|xphb",
+                  "mirror image|xphb"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "skillProficiencies": [
+        {
+          "deception": true
+        }
+      ],
+      "resist": [
+        "psychic"
+      ]
+    },
+    {
+      "name": "Marca da Inveja",
+      "source": "CHRONOS",
+      "category": "G",
+      "prerequisite": [
+        {
+          "other": "Ter cometido um ato de Inveja recente de altas proporções que causou repercussões devastadoras ou ser um Nefaryn"
+        }
+      ],
+      "entries": [
+        "O cobiçar desenfreado permite que você tome para si as bênçãos e conquistas alheias, concedendo os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Destreza ou Carisma aumenta em 1."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Usurpação do Mérito",
+          "entries": [
+            "Quando uma criatura que você possa ver recuperar pontos de vida, ganhar pontos de vida temporários, recuperar espaços de magia ou for alvo de um efeito que aumente seu deslocamento, Classe de Armadura ou valores de habilidade, você pode usar sua Reação para receber exatamente o mesmo efeito simultaneamente. Você pode usar este recurso um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos após um descanso longo."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Veno Imune",
+          "entries": [
+            "Você ganha resistência a dano de Veneno e imunidade à condição Envenenado."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Magia Inata",
+          "entries": [
+            "Você aprende as magias {@spell borrowed knowledge|scc|Conhecimento Emprestado} e {@spell gift of alacrity|egw|Dádiva da Alacridade}, podendo conjurar cada uma delas uma vez por descanso longo sem a necessidade de componentes."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "dex",
+              "cha"
+            ],
+            "amount": 1
+          }
+        }
+      ],
+      "additionalSpells": [
+        {
+          "innate": {
+            "_": {
+              "daily": {
+                "1": [
+                  "borrowed knowledge|scc",
+                  "gift of alacrity|egw"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "resist": [
+        "poison"
+      ],
+      "conditionImmune": [
+        "poisoned"
+      ]
+    },
+    {
+      "name": "Marca da Avareza",
+      "source": "CHRONOS",
+      "category": "G",
+      "prerequisite": [
+        {
+          "other": "Ter cometido um ato de Avareza recente de altas proporções que causou repercussões devastadoras ou ser um Nefaryn"
+        }
+      ],
+      "entries": [
+        "Sua ganância insaciável permite roubar não apenas bens, mas a própria fortuna e recursos alheios, concedendo os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Destreza aumenta em 1."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Roubo de Fortuna",
+          "entries": [
+            "Uma vez por descanso longo, como uma Reação quando uma criatura que você possa ver for recuperar pontos de vida, ganhar pontos de vida temporários, recuperar recursos limitados (como espaços de magia que você também possua) ou receber um efeito de fortalecimento (como a magia Velocidade), você pode realizar um teste de Prestidigitação contra um teste de Percepção do alvo. Em caso de sucesso, você toma e ganha o benefício para si em vez da criatura alvo."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Visão Cobiçosa",
+          "entries": [
+            "Você ganha proficiência na perícia Prestidigitação e torna-se imune à condição Cego."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Magia Inata",
+          "entries": [
+            "Você aprende as magias {@spell locate object|xphb|Localizar Objeto} e {@spell incite greed|ai|Incitar Ganância}, podendo conjurar cada uma delas uma vez por descanso longo."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "dex"
+            ],
+            "amount": 1
+          }
+        }
+      ],
+      "additionalSpells": [
+        {
+          "innate": {
+            "_": {
+              "daily": {
+                "1": [
+                  "locate object|xphb",
+                  "incite greed|ai"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "skillProficiencies": [
+        {
+          "sleight of hand": true
+        }
+      ],
+      "conditionImmune": [
+        "blinded"
+      ]
+    },
+    {
+      "name": "Marca do Terror",
+      "source": "CHRONOS",
+      "category": "G",
+      "prerequisite": [
+        {
+          "other": "Ter cometido um ato de Terror ou Covardia recente de altas proporções que causou repercussões devastadoras ou ser um Nefaryn"
+        }
+      ],
+      "entries": [
+        "A essência do medo alimenta sua vitalidade enquanto subjuga a mente dos fracos, concedendo os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Sabedoria ou Carisma aumenta em 1."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Banquete de Medo",
+          "entries": [
+            "Sempre que você causar a condição Amedrontado em uma criatura, você recebe Pontos de Vida Temporários iguais ao seu Nível de Personagem + Bônus de Proficiência + Nível de Desafio (ND) da Criatura afetada."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Presença Aterrorizante",
+          "entries": [
+            "Você ganha Expertise (o dobro do Bônus de Proficiência) em testes da perícia Intimidação e ganha resistência a dano Necrótico."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Magia Inata",
+          "entries": [
+            "Você aprende as magias {@spell cause fear|xge|Causar Medo} e {@spell darkness|xphb|Escuridão}, podendo conjurar cada uma delas uma vez por descanso longo."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "wis",
+              "cha"
+            ],
+            "amount": 1
+          }
+        }
+      ],
+      "additionalSpells": [
+        {
+          "innate": {
+            "_": {
+              "daily": {
+                "1": [
+                  "cause fear|xge",
+                  "darkness|xphb"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "resist": [
+        "necrotic"
+      ]
+    },
+    {
+      "name": "Marca do Orgulho",
+      "source": "CHRONOS",
+      "category": "G",
+      "prerequisite": [
+        {
+          "other": "Ter cometido um ato de Orgulho recente de altas proporções que causou repercussões devastadoras ou ser um Nefaryn"
+        }
+      ],
+      "entries": [
+        "Sua vaidade e arrogância inabaláveis forçam os inferiores a curvarem-se perante sua presença, concedendo os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Carisma aumenta em 1."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Submissão Forçada",
+          "entries": [
+            "Uma vez por descanso curto, ao atingir uma criatura com um ataque corpo a corpo, você pode forçá-la a realizar um teste de resistência de Carisma (CD = 8 + seu modificador de Carisma + seu Bônus de Proficiência). Em caso de falha, a criatura é forçada a ajoelhar-se em submissão, caindo na condição Caído (Prone) até o início do seu próximo turno, quando deverá repetir o teste para tentar encerrar o efeito."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Soberania Absoluta",
+          "entries": [
+            "Você ganha resistência a dano Radiante e torna-se imune à condição Amedrontado."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Magia Inata",
+          "entries": [
+            "Você aprende as magias {@spell command|xphb|Comando} e {@spell crown of madness|xphb|Coroa da Loucura}, podendo conjurar cada uma delas uma vez por descanso longo."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "cha"
+            ],
+            "amount": 1
+          }
+        }
+      ],
+      "additionalSpells": [
+        {
+          "innate": {
+            "_": {
+              "daily": {
+                "1": [
+                  "command|xphb",
+                  "crown of madness|xphb"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "resist": [
+        "radiant"
+      ],
+      "conditionImmune": [
+        "frightened"
+      ]
+    },
+    {
+      "name": "Marca da Ira",
+      "source": "CHRONOS",
+      "category": "G",
+      "prerequisite": [
+        {
+          "other": "Ter cometido um ato de Ira recente de altas proporções que causou repercussões devastadoras ou ser um Nefaryn"
+        }
+      ],
+      "entries": [
+        "O ódio fervilhante em seu sangue transforma a dor recebida em devastação imediata, concedendo os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Força ou Constituição aumenta em 1."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Retaliação Furiosa",
+          "entries": [
+            "Ao receber dano de uma criatura que você possa ver, você pode usar sua Reação para se mover até o equivalente ao seu deslocamento na direção da criatura e realizar imediatamente um ataque corpo a corpo com vantagem contra a criatura mais próxima. Este ataque retaliatório ignora quaisquer resistências a dano do alvo. Você pode usar este recurso um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos após um descanso longo."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Fúria Inabalável",
+          "entries": [
+            "Você ganha proficiência na perícia Atletismo e resistência a dano de Fogo."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Magia Inata",
+          "entries": [
+            "Você aprende as magias {@spell thunderous smite|xphb|Golpe Trovejante} e {@spell branding smite|xphb|Golpe Estigmatizante}, podendo conjurar cada uma delas uma vez por descanso longo sem a necessidade de componentes."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "str",
+              "con"
+            ],
+            "amount": 1
+          }
+        }
+      ],
+      "additionalSpells": [
+        {
+          "innate": {
+            "_": {
+              "daily": {
+                "1": [
+                  "thunderous smite|xphb",
+                  "branding smite|xphb"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "skillProficiencies": [
+        {
+          "athletics": true
+        }
+      ],
+      "resist": [
+        "fire"
+      ]
+    },
+    {
+      "name": "Marca da Gula",
+      "source": "CHRONOS",
+      "category": "G",
+      "prerequisite": [
+        {
+          "other": "Ter cometido um ato de Gula recente de altas proporções que causou repercussões devastadoras ou ser um Nefaryn"
+        }
+      ],
+      "entries": [
+        "Sua fome insaciável consome a vitalidade dos inimigos e assimila qualquer substância, concedendo os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Constituição aumenta em 1."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Devorar Vitalidade",
+          "entries": [
+            "Ao causar dano a uma criatura com um ataque corpo a corpo, você pode usar sua Reação para recuperar Pontos de Vida iguais à metade do dano causado por aquele ataque (até um máximo de 10 Pontos de Vida recuperados por uso). Você pode usar este recurso um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos após um descanso longo."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Consumo Digestivo Absoluto",
+          "entries": [
+            "Você pode consumir qualquer tipo de alimento, líquido ou substância — mesmo aqueles que seriam tóxicos, estragados ou venenosos — sem sofrer nenhum tipo de efeito adverso ou dano."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Resiliência Estomacal",
+          "entries": [
+            "Você ganha resistência a dano de Ácido e vantagem em testes de resistência contra venenos e toxinas."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Magia Inata",
+          "entries": [
+            "Você aprende as magias {@spell create food and water|xphb|Criar Alimentos e Água} e {@spell enlarge/reduce|xphb|Aumentar/Reduzir}, podendo conjurar cada uma delas uma vez por descanso longo."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "con"
+            ],
+            "amount": 1
+          }
+        }
+      ],
+      "additionalSpells": [
+        {
+          "innate": {
+            "_": {
+              "daily": {
+                "1": [
+                  "create food and water|xphb",
+                  "enlarge/reduce|xphb"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "resist": [
+        "acid"
+      ]
+    },
+    {
+      "name": "Marca da Preguiça",
+      "source": "CHRONOS",
+      "category": "G",
+      "prerequisite": [
+        {
+          "other": "Ter cometido um ato de Preguiça recente de altas proporções que causou repercussões devastadoras ou ser um Nefaryn"
+        }
+      ],
+      "entries": [
+        "Sua inércia torna seu corpo denso e sua mente indiferente às pressões do mundo, concedendo os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Sabedoria aumenta em 1."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Inércia Defensiva",
+          "entries": [
+            "Uma vez por descanso curto, ao falhar em um teste de resistência de Destreza, você pode usar sua Reação para substituir o resultado do teste pelo seu modificador de Constituição."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Massa Inamovível",
+          "entries": [
+            "Você tem vantagem em testes de resistência para evitar ser derrubado (Caído / Prone), para resistir à condição Exaustão, e em testes de resistência para evitar ser movido contra a sua vontade."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Gelo da Apatia",
+          "entries": [
+            "Você ganha resistência a dano de Frio."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Magia Inata",
+          "entries": [
+            "Você aprende as magias {@spell sleep|xphb|Sono} e {@spell silence|xphb|Silêncio}, podendo conjurar cada uma delas uma vez por descanso longo."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "wis"
+            ],
+            "amount": 1
+          }
+        }
+      ],
+      "additionalSpells": [
+        {
+          "innate": {
+            "_": {
+              "daily": {
+                "1": [
+                  "sleep|xphb",
+                  "silence|xphb"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "resist": [
+        "cold"
+      ]
+    },
+    {
+      "name": "Adaptado à Tundra",
+      "source": "CHRONOS",
+      "category": "G",
+      "entries": [
+        "O gelo e a neve não são obstáculos para você, mas sim seu campo de caça. Seu sangue corre quente mesmo nas nevascas mais mortais.",
+        "Você adaptou-se perfeitamente aos ambientes mais congelantes do mundo, ganhando os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Constituição aumenta em 1, até o máximo de 20."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Resistência Congelante",
+          "entries": [
+            "Você é naturalmente aclimatado a altitudes elevadas e temperaturas frias extremas, não sofrendo os efeitos adversos de climas congelantes. Além disso, você tem resistência a dano de Frio."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Passo do Gelo",
+          "entries": [
+            "Neve e gelo não impõem custo de deslocamento extra a você, e você não deixa rastros nessas superfícies, a menos que escolha fazê-lo."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Forrageador Ártico",
+          "entries": [
+            "Você tem vantagem em testes de Sabedoria (Sobrevivência) realizados para forragear alimentos sob o gelo e para rastrear criaturas na neve."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "con"
+            ],
+            "amount": 1,
+            "max": 20
+          }
+        }
+      ],
+      "resist": [
+        "cold"
+      ]
+    },
+    {
+      "name": "Adaptado ao Deserto",
+      "source": "CHRONOS",
+      "category": "G",
+      "entries": [
+        "Forjado sob o sol implacável e a aridez dos desertos, seu corpo se tornou incrivelmente eficiente em preservar recursos e suportar altas temperaturas.",
+        "Você domina a sobrevivência sob o calor e a aridez extrema, ganhando os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Constituição aumenta em 1, até o máximo de 20."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Resistência Árida",
+          "entries": [
+            "Você é naturalmente aclimatado a climas de calor extremo, não sofrendo os efeitos adversos de tais ambientes, e suas necessidades diárias de água são reduzidas pela metade. Além disso, você tem resistência a dano de Fogo."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Sentido da Água",
+          "entries": [
+            "Você tem vantagem em testes de Sabedoria (Sobrevivência) para encontrar fontes de água no ambiente e sabe instintivamente se a água encontrada é potável, venenosa ou amaldiçoada."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Mimetismo Solar",
+          "entries": [
+            "Enquanto estiver sob luz solar plena ou em terrenos de deserto e savana, criaturas que dependam da visão sofrem desvantagem em rolagens de Iniciativa contra você. Além disso, você pode tentar se esconder mesmo quando estiver apenas levemente obscurecido por miragens, tempestades de areia ou pelo forte brilho do sol."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "con"
+            ],
+            "amount": 1,
+            "max": 20
+          }
+        }
+      ],
+      "resist": [
+        "fire"
+      ]
+    },
+    {
+      "name": "Adaptado à Selva",
+      "source": "CHRONOS",
+      "category": "G",
+      "entries": [
+        "Sua vivência sob o dossel úmido e as sombras das matas densas afiou seus instintos contra doenças mortais e predadores ocultos.",
+        "Você tornou-se um predador nato em biomas fechados e úmidos, ganhando os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Constituição ou Sabedoria aumenta em 1, até o máximo de 20."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Agilidade de Dossel",
+          "entries": [
+            "Quando estiver em ambientes de floresta, pântano ou selva, você ganha um deslocamento de Escalada igual ao seu deslocamento base de caminhada."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Conhecimento das Toxinas",
+          "entries": [
+            "Você tem vantagem em testes de resistência para não contrair doenças e em testes para identificar flora perigosa, criaturas venenosas, venenos e toxinas naturais. Testes de conhecimento sobre estes assuntos podem ser realizados usando Sabedoria (em vez de Inteligência)."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Imunidade Tropical",
+          "entries": [
+            "Você tem resistência a dano de Veneno."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Tiro sem Barreiras",
+          "entries": [
+            "Folhagens densas, chuvas fortes e vegetação rasteira não oferecem meia cobertura ou cobertura de três quartos contra os seus ataques."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "con",
+              "wis"
+            ],
+            "amount": 1,
+            "max": 20
+          }
+        }
+      ],
+      "resist": [
+        "poison"
+      ],
+      "speed": {
+        "climb": true
+      }
+    },
+    {
+      "name": "Adaptado às Montanhas",
+      "source": "CHRONOS",
+      "category": "G",
+      "entries": [
+        "Nascido nos picos das montanhas, você não teme a gravidade. Seus músculos e tendões possuem uma força de tração inigualável.",
+        "Você domina as alturas e os terrenos rochosos mais íngremes, ganhando os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Força ou Destreza aumenta em 1, até o máximo de 20."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Escalador Inabalável",
+          "entries": [
+            "Você ganha um deslocamento de Escalada igual ao seu deslocamento base de caminhada. Atravessar e escalar superfícies escorregadias ou estreitas não requer testes de habilidade, e você não pode cair dessas superfícies a menos que seja empurrado ativamente por um efeito externo."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Empunhadura Firme",
+          "entries": [
+            "Você é imune a efeitos que tentem remover um objeto de suas mãos e tem vantagem em testes para se agarrar a bordas e saliências caso comece a cair."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Ataque em Queda",
+          "entries": [
+            "Quando você realiza um ataque com arma corpo a corpo após cair intencionalmente pelo menos 10 pés (3 metros) em direção a um alvo, o ataque causa um dado extra de dano do tipo da arma, e você reduz o dano de queda que sofreria em um valor igual ao triplo do seu nível de personagem."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "str",
+              "dex"
+            ],
+            "amount": 1,
+            "max": 20
+          }
+        }
+      ],
+      "speed": {
+        "climb": true
+      }
+    },
+    {
+      "name": "Adaptado às Cavernas",
+      "source": "CHRONOS",
+      "category": "G",
+      "entries": [
+        "Você abraçou o escuro opressivo do mundo subterrâneo. Sua audição e sensibilidade espacial guiam você por labirintos de pedra.",
+        "Você navega com maestria pela escuridão e pelos trechos subterrâneos, ganhando os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Inteligência ou Sabedoria aumenta em 1, até o máximo de 20."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Percepção Sonar",
+          "entries": [
+            "Enquanto estiver no subsolo ou em ambientes fechados silenciosos, você ganha Percepção às Cegas (Blindsight) num alcance de 10 pés (3 metros)."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Passo Silencioso",
+          "entries": [
+            "Você tem vantagem em testes de Destreza (Furtividade) realizados para se mover silenciosamente em superfícies rochosas ou corredores estreitos."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Sentido Subterrâneo",
+          "entries": [
+            "Enquanto estiver no subsolo, você sempre sabe para qual direção fica o norte. Além disso, você não pode se perder por meios não-mágicos e consegue lembrar-se perfeitamente de qualquer caminho ou ramificação que tenha percorrido."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "int",
+              "wis"
+            ],
+            "amount": 1,
+            "max": 20
+          }
+        }
+      ]
+    },
+    {
+      "name": "Adaptado ao Mar",
+      "source": "CHRONOS",
+      "category": "G",
+      "entries": [
+        "Nascido em costas implacáveis, arquipélagos ou no convés de navios, você viveu desde cedo com marés, correntes e conviveu com aqueles que dependem delas.",
+        "Você possui uma ligação profunda com os oceanos e o estilo de vida marítimo, ganhando os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Força, Constituição ou Carisma aumenta em 1, até o máximo de 20."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Navegador Anfíbio",
+          "entries": [
+            "Você ganha deslocamento de Natação igual ao seu deslocamento de caminhada e pode prender a respiração pelo dobro do tempo normal."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Mestre das Marés",
+          "entries": [
+            "Você tem vantagem em testes de Sabedoria (Sobrevivência) para prever mudanças climáticas extremas, identificar correntes marítimas e calcular rotas de navegação seguras, além de ganhar proficiência com Veículos (Aquáticos)."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Código dos Portos",
+          "entries": [
+            "Você ententende um dialeto secreto composto por gírias de navegação, sinais de lanternas e marcações discretas nos cascos dos navios, conseguindo esconder mensagens complexas em conversas mundanas (como manifestos de carga ou taxas portuárias) que apenas outros iniciados entendem. Além disso, ao chegar a um porto, você identifica instintivamente quem é receptivo a subornos, quais docas possuem fiscalização frouxa e onde encontrar contrabando."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "str",
+              "con",
+              "cha"
+            ],
+            "amount": 1,
+            "max": 20
+          }
+        }
+      ],
+      "speed": {
+        "swim": true
+      }
+    },
+    {
+      "name": "Adaptação Cultural",
+      "source": "CHRONOS",
+      "category": "G",
+      "entries": [
+        "A sua capacidade de entender pessoas e costumes permite que você se sinta em casa em qualquer metrópole ou feira do mundo.",
+        "Sua habilidade diplomática e social abre portas em qualquer civilização, concedendo os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Inteligência ou Carisma aumenta em 1, até o máximo de 20."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Navegação Burocrática",
+          "entries": [
+            "Você sabe instintivamente como navegar pelas formalidades e burocracias de culturas estrangeiras. Você tem vantagem em testes de Carisma (Persuasão) ou Sabedoria (Intuição) ao negociar contratos, tarifas comerciais ou ao tentar obter favores de autoridades locais."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Assimilação Rápida",
+          "entries": [
+            "Você aprende o básico para se comunicar e entender os costumes de uma nova cultura ou idioma não-secreto após conviver apenas três dias naquele meio social."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Contatos Locais",
+          "entries": [
+            "Ao chegar em qualquer vila, feira ou metrópole, você sabe exatamente qual é a pessoa ou guilda que deve procurar para encontrar abrigo seguro, trabalho ou rotas de caravanas confiáveis."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "int",
+              "cha"
+            ],
+            "amount": 1,
+            "max": 20
+          }
+        }
+      ]
+    },
+    {
+      "name": "Adaptado ao Flagelo",
+      "source": "CHRONOS",
+      "category": "G",
+      "entries": [
+        "Nascido em lodaçais estagnados, campos de batalha esquecidos ou terras corrompidas por magias sombrias, você aprendeu a sobreviver onde o próprio ar tenta devorar os vivos. A lama negra, os vapores tóxicos e as ruínas retorcidas são o seu lar.",
+        "Sua resiliência permite que você prosperar em regiões desoladas e corrompidas, ganhando os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Constituição ou Sabedoria aumenta em 1, até o máximo de 20."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Passo do Lodo",
+          "entries": [
+            "Você ignora terreno difícil causado por lama, águas turvas, pilhas de corpos, cinzas espessas, raízes e flora distorcida. Além disso, tem vantagem em testes para encontrar e escapar de armadilhas naturais (como areia movediça e sumidouros) e para perceber criaturas escondidas entre os mortos ou em águas rasas."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Pulmões Resilientes",
+          "entries": [
+            "Seu corpo acostumou-se aos miasmas e à decomposição. Você tem vantagem em testes de resistência contra doenças, gases tóxicos e venenos inalados ou ingeridos."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Sentido da Corrupção",
+          "entries": [
+            "Você tem vantagem em testes para identificar se comida ou água está contaminada, envenenada ou amaldiçoada. Além disso, sabe identificar instintivamente se uma área pantanosa ou devastada possui forte influência do Inverso ou de mortos-vivos apenas observando a perturbação na natureza ao redor."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "con",
+              "wis"
+            ],
+            "amount": 1,
+            "max": 20
+          }
+        }
+      ]
+    },
+    {
+      "name": "Adestrador de Feras",
+      "source": "CHRONOS",
+      "category": "G",
+      "entries": [
+        "Sua afinidade natural com a vida selvagem permite domar e comandar criaturas da natureza com facilidade.",
+        "Você desenvolveu uma profunda conexão com bestas do mundo natural, ganhando os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Afinidade Selvagem",
+          "entries": [
+            "Bestas não-mágicas são inicialmente indiferentes ou amigáveis em relação a você. Além disso, você tem vantagem em testes de Sabedoria (Lidar com Animais) para adestrá-las ou acalmá-las."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Companheiro Animal",
+          "entries": [
+            "Após dedicar 8 horas contínuas de treinamento, você cria um vínculo com uma Besta de Nível de Desafio (ND) máximo igual ao seu nível de personagem dividido por 4 (mínimo ND 0). Em combate, a besta rola sua própria iniciativa e age no próprio turno, realizando a ação de Esquiva, a menos que você use sua Ação Bônus para comandar que ela realize as ações de Ataque, Disparar, Desengajar ou Ajudar. Você só pode manter o vínculo com um companheiro animal por vez."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Carniceiro",
+      "source": "CHRONOS",
+      "category": "G",
+      "entries": [
+        "Sua habilidade cirúrgica com carcaças garante que nenhum recurso de uma fera abatida seja desperdiçado.",
+        "Você domina o aproveitamento biológico de criaturas mortas, ganhando os seguintes benefícios:",
+        {
+          "type": "entries",
+          "name": "Aumento de Valor de Habilidade",
+          "entries": [
+            "Seu valor de Sabedoria aumenta em 1, até o máximo de 20."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Extração de Suprimentos",
+          "entries": [
+            "Ao gastar 10 minutos trabalhando em uma carcaça recém-abatida, você pode realizar um teste de Sabedoria (Sobrevivência) com CD 15. Em caso de sucesso, você extrai rações purificadas e livres de toxinas suficientes para alimentar um número de criaturas igual ao seu Bônus de Proficiência."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Colheita de Componentes",
+          "entries": [
+            "Você tem vantagem em testes de habilidade para extrair componentes valiosos e intactos (como peçonha, couro, presas, garras ou órgãos arcanos) de inimigos abatidos para venda ou criação de itens."
+          ]
+        }
+      ],
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "wis"
+            ],
+            "amount": 1,
+            "max": 20
+          }
+        }
+      ]
+    }
+  ],
+  "race": [
+    {
+      "name": "Aethelis",
+      "source": "CHRONOS",
+      "size": [
+        "M"
+      ],
+      "speed": 30,
+      "ability": [
+        {
+          "con": 2,
+          "choose": {
+            "from": [
+              "str",
+              "dex",
+              "int",
+              "wis",
+              "cha"
+            ],
+            "count": 1
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Idade",
+          "entries": [
+            "Um Aethelis não envelhece biologicamente. Ele pode navegar pelos cosmos por séculos até que sua energia se esgote, ou até que escolha encerrar sua história e iniciar uma nova, culminando em uma supernova que o faz renascer de sua Âncora. Quando isso ocorre, suas memórias passadas são purgadas e ele recomeça sua jornada."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Idiomas",
+          "entries": [
+            "Você sabe falar, ler e escrever Novaethe e mais um idioma de sua escolha."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Alinhamento",
+          "entries": [
+            "Devido à sua incapacidade de guardar rancores e ao foco obsessivo em viver o \"agora\", os Aethelis tendem fortemente ao Caótico, prezando a liberdade, a aventura e a autoexpressão."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Tamanho",
+          "entries": [
+            "Os Aethelis possuem silhuetas variadas formadas por plasma, medindo entre 1,40 m e 2,00 m de altura. Seu tamanho é Médio."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Corpo Incandescente",
+          "entries": [
+            "Seu corpo de plasma e poeira estelar concede os seguintes benefícios:",
+            {
+              "type": "list",
+              "items": [
+                "Você emite luz fraca em um raio de 3 metros (10 pés) ao seu redor. Você pode suprimir ou reativar essa luminosidade usando uma Ação Bônus.",
+                "Você tem resistência a dano de Fogo.",
+                "Você não precisa respirar oxigênio, alimentando-se da inalação de éter, ventos solares e da absorção de minerais ou cristais arcanos. Quando longe do Cosmos, pode consumir alimentos normais, mas precisa ingerir o dobro do necessário para uma pessoa comum."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Foco do Agora",
+          "entries": [
+            "Sua Âncora estabiliza sua consciência contra manipulações mentais e temporais. Você tem vantagem em testes de resistência para evitar ser Encantado ou Amedrontado."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Navegante do Éter",
+          "entries": [
+            "Você ganha proficiência de Veículos (Aéreos e Aquáticos)."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Âncora Nebular",
+          "entries": [
+            "A nebulosa da qual seu plasma emergiu molda a coloração do seu corpo e concede uma habilidade única associada a quem a rege. Escolha uma Âncora Nebular da lista de sub-raças."
+          ]
+        }
+      ],
+      "creatureTypes": [
+        "celestial",
+        "humanoid"
+      ],
+      "resist": [
+        "fire"
+      ],
+      "languageProficiencies": [
+        {
+          "anyStandard": 1
+        }
+      ]
+    },
+    {
+      "name": "Cipriano",
+      "source": "CHRONOS",
+      "size": [
+        "M"
+      ],
+      "speed": 30,
+      "ability": [
+        {
+          "int": 2,
+          "choose": {
+            "from": [
+              "str",
+              "dex",
+              "con",
+              "wis",
+              "cha"
+            ],
+            "count": 1
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Idade",
+          "entries": [
+            "Os Ciprianos são esculpidos e despertados como adultos na Fase do Brilho, aos 20 anos. Por volta dos 80 anos, seu cobre escurece na Fase de Bronzeamento. Aos 150 anos, atingem a Fase da Pátina, ficando completamente verdes. Entre dois a três séculos de vida, um Cipriano entra em estase psíquica e se torna uma estátua permanente, despertando apenas ocasionalmente quando questionado usando rituais sagrados de sua raça."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Alinhamento",
+          "entries": [
+            "A profunda ligação com Morgana, a civilização e a filosofia faz com que tendam fortemente ao Leal, prezando a ordem, a lógica, a arquitetura e a preservação da história."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Tamanho",
+          "entries": [
+            "Como esculturas imponentes feitas para sustentar o saber, os Ciprianos variam entre 1,90 m e 2,40 m de altura, com um peso elevado devido à sua estrutura metálica. Seu tamanho é Médio."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Idiomas",
+          "entries": [
+            "Você sabe falar, ler e escrever Ciprianês e mais dois idiomas de sua escolha."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Anatomia Cúprea",
+          "entries": [
+            "A densidade do seu corpo de cobre oferece proteção natural e resiliência:",
+            {
+              "type": "list",
+              "items": [
+                "Sua Classe de Armadura natural é 12 + seu modificador de Inteligência, se não estiver usando armadura nem escudo.",
+                "Você precisa de apenas metade da quantidade de alimento e descanso que outras criaturas para viver, recebendo os efeitos de um descanso longo após apenas 4 horas de repouso e consumindo apenas metade de uma ração por descanso."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Força Telecinética",
+          "entries": [
+            "A força do seu corpo é sustentada pelo seu intelecto psíquico e não por fibras musculares:",
+            {
+              "type": "list",
+              "items": [
+                "Você pode usar seu modificador de Inteligência em vez do modificador de Força para testes de Atletismo, testes de resistência de Força e para determinar sua capacidade de carga, empurrar, puxar e erguer peso.",
+                "Você pode usar Inteligência para calcular as jogadas de ataque e dano com armas corpo a corpo que empunhar com as duas mãos ou que possuam a propriedade Pesada."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Mão do Arquiteto",
+          "entries": [
+            "Você conhece o truque {@spell mage hand|xphb|Mão Mágica}. Quando você o conjura, a mão é invisível e não exige componentes verbais ou somáticos. Seu atributo de conjuração para essa magia é Inteligência."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Arquivo Vivo",
+          "entries": [
+            "Você ganha proficiência em duas perícias baseadas em Inteligência à sua escolha."
+          ]
+        }
+      ],
+      "creatureTypes": [
+        "construct",
+        "humanoid"
+      ],
+      "additionalSpells": [
+        {
+          "innate": {
+            "_": [
+              "mage hand|xphb"
+            ]
+          },
+          "ability": "int"
+        }
+      ]
+    },
+    {
+      "name": "Desperto",
+      "source": "CHRONOS",
+      "size": [
+        "S",
+        "M"
+      ],
+      "speed": 30,
+      "ability": [
+        {
+          "cha": 2,
+          "choose": {
+            "from": [
+              "str",
+              "dex",
+              "con",
+              "int",
+              "wis"
+            ],
+            "count": 1
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Tamanho",
+          "entries": [
+            "Os Despertos mantêm a estrutura física e a estatura que possuíam em sua vida original, variando entre Pequeno e Médio."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Idiomas",
+          "entries": [
+            "Você sabe falar, ler e escrever dois idiomas que conhecia em sua vida passada."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Alinhamento",
+          "entries": [
+            "Seu alinhamento tende a ser o mesmo que você mantinha em vida, preservado pela força de sua mente."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Constituição do Morto",
+          "entries": [
+            "Sustentado pela magia de Uneiros, seu corpo possui as seguintes resiliências:",
+            {
+              "type": "list",
+              "items": [
+                "Você não precisa comer, beber ou respirar.",
+                "Você é imune a doenças não mágicas."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Tempo no Mundo",
+          "entries": [
+            "Sua forma física reflete a fase atual do seu ciclo de permanência no plano material. Escolha uma das sub-raças a seguir para representar o estado atual do seu corpo e quanto tempo você ainda carrega neste mundo."
+          ]
+        }
+      ],
+      "creatureTypes": [
+        "undead",
+        "humanoid"
+      ],
+      "conditionImmune": [
+        "disease"
+      ]
+    },
+    {
+      "name": "Draconato",
+      "source": "CHRONOS",
+      "size": [
+        "M"
+      ],
+      "speed": 30,
+      "ability": [
+        {
+          "choose": {
+            "weighted": {
+              "from": [
+                "str",
+                "dex",
+                "con",
+                "int",
+                "wis",
+                "cha"
+              ],
+              "weights": [
+                2,
+                1
+              ]
+            }
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Idade",
+          "entries": [
+            "Os Draconatos desenvolvem-se com incrível rapidez: conseguem andar poucas horas após chocarem de seus ovos, atingem a maturidade física por volta dos 10 anos e vivem pouco mais de um século."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Idiomas",
+          "entries": [
+            "Você sabe falar, ler e escrever Dracônico e mais um idioma de sua escolha."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Alinhamento",
+          "entries": [
+            "Os Draconatos tendem fortemente a refletir a moralidade e a filosofia de vida de seu Dragão Ancestral."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Tamanho",
+          "entries": [
+            "Os Draconatos são significativamente mais altos e encorpados que os terranos, ultrapassando 1,80 metro de altura e pesando, em média, cerca de 130 quilos. Seu tamanho é Médio."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Sopro Dracônico",
+          "entries": [
+            "Quando você realiza a ação de Ataque no seu turno, você pode substituir um dos seus ataques para exalar o elemento da sua ancestralidade na área descrita por ela. Alternativamente, você pode usar uma Ação Bônus para realizar essa exalação. Você pode usar este traço apenas uma vez por rodada.",
+            "O efeito da exalação depende do seu Ancestral Dracônico. Caso exija um teste de resistência, a Classe de Dificuldade (CD) é igual a 8 + seu modificador de Constituição + seu Bônus de Proficiência:",
+            {
+              "type": "list",
+              "items": [
+                "{@b Exalação de Dano:} Cada criatura na área afetada deve realizar o teste de resistência indicado. Ela sofre 2d6 de dano do tipo do seu elemento em uma falha, ou metade desse dano em um sucesso.",
+                "{@b Exalação de Cura:} O efeito restaura 2d6 Pontos de Vida às criaturas na área afetada (sem a necessidade de realizar teste de resistência)."
+              ]
+            },
+            "O rolamento da exalação aumenta para 4d6 no 5º nível, 6d6 no 11º nível e 8d6 no 16º nível.",
+            "Você pode usar este traço um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos gastos ao terminar um descanso longo."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Ancestral Dracônico",
+          "entries": [
+            "Sua linhagem é diretamente conectada a um Dragão Ancião específico de Chronos. Escolha um dos ancestrais da tabela abaixo; isso determina o tipo de dano ou cura do seu sopro, a resistência que você adquire, a área afetada (com a respectiva salvaguarda) e o talento ganho.",
+            {
+              "type": "table",
+              "caption": "Tabela de Ancestralidade Dracônica",
+              "colLabels": [
+                "Dragão Ancestral",
+                "Dano / Efeito",
+                "Resistência",
+                "Área do Sopro (Salvaguarda)",
+                "Talento Concedido"
+              ],
+              "colStyles": [
+                "col-3",
+                "col-2",
+                "col-2",
+                "col-3",
+                "col-2"
+              ],
+              "rows": [
+                [
+                  "Kael'sol, O Dragão Solar",
+                  "Radiante",
+                  "Radiante",
+                  "Cone de 25 pés (Destreza)",
+                  "Afinidade Solar"
+                ],
+                [
+                  "Argendor, O Dragão Lunar",
+                  "Psíquico",
+                  "Psíquico",
+                  "Linha de 10 x 30 pés (Sabedoria)",
+                  "Afinidade Lunar"
+                ],
+                [
+                  "Thaumeros, O Dragão Arcano",
+                  "Força",
+                  "Força",
+                  "Círculo de 10 pés de raio (Destreza)",
+                  "Afinidade Arcana"
+                ],
+                [
+                  "Caldrin, O Dragão Oceânico",
+                  "Concussão",
+                  "Frio",
+                  "Cone de 25 pés (Força)",
+                  "Afinidade Oceânica"
+                ],
+                [
+                  "Askather, O Dragão Calamidade",
+                  "Fogo, Elétrico ou Frio*",
+                  "Fogo, Elétrico ou Frio*",
+                  "Linha de 10 x 30 pés (Destreza)",
+                  "Afinidade Cataclísmica"
+                ],
+                [
+                  "Ferroskar, O Dragão de Aço",
+                  "Perfurante",
+                  "Físico Não-Mágico**",
+                  "Cone de 25 pés (Destreza)",
+                  "Afinidade ao Aço"
+                ],
+                [
+                  "Renirazura, A Restauração",
+                  "Cura",
+                  "Necrótico",
+                  "Cone de 25 pés (Nenhum)",
+                  "Afinidade a Restauração"
+                ]
+              ],
+              "footnotes": [
+                "*Para Askather, escolha apenas um tipo entre Fogo, Elétrico ou Frio ao criar o personagem (aplicado tanto ao sopro quanto à resistência).",
+                "**Para Ferroskar, escolha um tipo de dano físico não-mágico (Concussão, Perfurante ou Cortante) para sua resistência."
+              ]
+            }
+          ]
+        }
+      ],
+      "creatureTypes": [
+        "dragon",
+        "humanoid"
+      ],
+      "languageProficiencies": [
+        {
+          "draconic": true,
+          "anyStandard": 1
+        }
+      ]
+    },
+    {
+      "name": "Duar'ki",
+      "source": "CHRONOS",
+      "size": [
+        "M"
+      ],
+      "speed": 25,
+      "ability": [
+        {
+          "con": 2,
+          "dex": 1
+        }
+      ],
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Idade",
+          "entries": [
+            "Os Duar'ki possuem alta longevidade. São considerados totalmente desenvolvidos assim que emergem da Primeira Chama. Seu corpo para de envelhecer por volta dos 300 anos, e eles apenas morrem de causas naturais quando sua paixão e amor pelo seu ofício morrem por completo."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Alinhamento",
+          "entries": [
+            "Extremamente voltados para a família, para o clã e para a paixão de suas criações, os Duar'ki tendem fortemente ao Leal, honrando suas promessas e tradições acima de tudo."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Tamanho",
+          "entries": [
+            "Os Duar'ki medem entre 1,00 m e 1,50 m de altura e pesam, em média, cerca de 180 quilos devido à densidade de sua estrutura rochosa. Seu tamanho é Médio."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Corpo Forjado",
+          "entries": [
+            "Sua anatomia de rocha e metal concede os seguintes benefícios:",
+            {
+              "type": "list",
+              "items": [
+                "Você é considerado uma classe de tamanho maior para determinar sua capacidade de carga e o peso que pode empurrar, puxar ou erguer.",
+                "Você é imune a dano de Queda e possui resistência a dano de Fogo.",
+                "{@b Resiliência Escolhida:} Ao criar seu personagem, escolha entre receber {@b 1 Ponto de Vida adicional por nível} (retroativo e cumulativo) OU ser {@b imune a dano de Veneno e à condição Envenenado}."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Fascínio Flamejante",
+          "entries": [
+            "A Chama Divina desperta em você uma devoção e maestria criativa ímpares:",
+            {
+              "type": "list",
+              "items": [
+                "Você ganha proficiência em duas {@b Ferramentas} de sua escolha.",
+                "Escolha uma dessas duas ferramentas e uma {@b Perícia} relacionada a ela. Você adiciona o dobro do seu Bônus de Proficiência (Expertise) a qualquer teste de habilidade que faça utilizando essa ferramenta ou essa perícia escolhida."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Idiomas",
+          "entries": [
+            "Você sabe falar, ler e escrever Anão e mais um idioma de sua escolha."
+          ]
+        }
+      ],
+      "creatureTypes": [
+        "elemental",
+        "humanoid"
+      ],
+      "resist": [
+        "fire"
+      ],
+      "languageProficiencies": [
+        {
+          "dwarvish": true,
+          "anyStandard": 1
+        }
+      ]
+    },
+    {
+      "name": "Eolthlin",
+      "source": "CHRONOS",
+      "size": [
+        "M"
+      ],
+      "speed": {
+        "walk": 30,
+        "fly": {
+          "number": 40,
+          "condition": "(se não estiver vestindo armadura)"
+        }
+      },
+      "ability": [
+        {
+          "dex": 2,
+          "choose": {
+            "from": [
+              "wis",
+              "cha"
+            ],
+            "count": 1
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Idade",
+          "entries": [
+            "Os Eolthlin possuem um desenvolvimento físico acelerado, atingindo a maturidade por volta dos 6 anos. Vivem vidas breves e intensas, com expectativa de vida entre 40 e 60 anos, mantendo-se ativos e itinerantes até seus últimos dias."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Alinhamento",
+          "entries": [
+            "Almas puramente livres e avessas ao controle rígido, os Eolthlin tendem quase universalmente ao Caótico e Bom."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Tamanho",
+          "entries": [
+            "Os Eolthlin medem entre 1,60 m e 1,80 m de altura, com uma estrutura óssea leve e aerodinâmica. Seu tamanho é Médio."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Garras e Bico",
+          "entries": [
+            "Suas garras e seu bico são armas naturais que você pode utilizar para realizar ataques desarmados. Se acertar, você causa {@b 1d6 de dano Cortante ou Perfurante} (à sua escolha) + seu modificador de Força ou Destreza."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Espírito Imparável",
+          "entries": [
+            "Enquanto mantiver a graça de Feol, seu corpo reage instintivamente contra qualquer tentativa de aprisionamento:",
+            {
+              "type": "list",
+              "items": [
+                "Você tem {@b Vantagem} em testes de resistência e testes de habilidade para evitar ou encerrar as condições Agarrado, Restrito ou Paralisado.",
+                "Você pode usar uma {@b Ação Bônus} para se libertar automaticamente de amarras não mágicas, algemas, garras que o estejam agarrando ou de outros efeitos que estejam reduzindo o seu deslocamento.",
+                "{@b Quebra do Dogma:} Se você privar intencionalmente a liberdade de um inocente (através de escravização, assassinato, roubo injustificado ou ato similar), você perde os benefícios deste traço até realizar um ato solene de reparação perante Feol."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Voo do Zéfiro",
+          "entries": [
+            "Suas asas concedem um deslocamento de Voo de 40 pés (12 metros), desde que você não esteja vestindo nenhuma armadura.",
+            {
+              "type": "list",
+              "items": [
+                "{@b Esforço do Voo:} Seu corpo não foi feito para permanecer no ar indefinidamente. Você pode voar por um número de minutos contínuos igual ao seu Bônus de Proficiência. Se continuar voando após esse tempo sem realizar um descanso curto ou longo no solo, você deve realizar um teste de resistência de Constituição (CD = 10 + 2 para cada minuto adicional no ar). Em caso de falha, você ganha 1 nível de Exaustão."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Arte dos Ventos",
+          "entries": [
+            "A música, a poesia e a tradição oral fazem parte da sua formação desde a infância:",
+            {
+              "type": "list",
+              "items": [
+                "Você ganha proficiência na perícia Atuação e em dois {@b Instrumentos Musicais} à sua escolha.",
+                "Você conhece um {@b truque (cantrip)} à sua escolha da lista de magias do Bardo. Seu atributo de conjuração para este truque é Carisma ou Sabedoria (escolhido ao criar o personagem)."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Idiomas",
+          "entries": [
+            "Você sabe falar, ler e escrever dois idiomas de sua escolha."
+          ]
+        }
+      ],
+      "creatureTypes": [
+        "humanoid"
+      ],
+      "skillProficiencies": [
+        {
+          "performance": true
+        }
+      ],
+      "languageProficiencies": [
+        {
+          "anyStandard": 2
+        }
+      ]
+    },
+    {
+      "name": "Galgalim",
+      "source": "CHRONOS",
+      "size": [
+        "M"
+      ],
+      "speed": {
+        "walk": 30,
+        "swim": 30
+      },
+      "ability": [
+        {
+          "con": 2,
+          "wis": 1
+        }
+      ],
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Idade",
+          "entries": [
+            "Os Galgalim não envelhecem de forma biológica comum. Conforme os séculos passam, seus corpos hipercalcificam-se, tornando-se mais densos e pesados. Próximo ao fim de seu ciclo (por volta de 500 a 600 anos), um Galgalim se ancora ao solo no Repouso Final, petrificando-se como um recife definitivo enquanto sua pérola interior é resgatada para a criação de uma nova vida."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Alinhamento",
+          "entries": [
+            "Devido ao seu relógio geológico, paciência infinita e devoção à cura e à ordem da natureza, os Galgalim tendem fortemente ao Leal e Bom ou Neutro e Bom."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Idiomas",
+          "entries": [
+            "Você sabe falar, ler e escrever Galgalês (uma língua expressa através de combinações de brilhos luminescentes e pequenos movimentos corporais), Aquan e mais um idioma de sua escolha."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Tamanho",
+          "entries": [
+            "Os Galgalim são seres imponentes e pesados, variando entre 1,60 m e 2,40 m de altura. Seu tamanho é Médio."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Anfíbio",
+          "entries": [
+            "Você pode respirar tanto ar quanto água."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Armadura de Coral",
+          "entries": [
+            "Seu corpo de coral denso oferece uma carapaça protetora natural. Sua Classe de Armadura Natural é 16."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Mente de Falésia",
+          "entries": [
+            "Sua paciência geológica e serenidade inabalável o tornam imune ao pânico passageiro. Você tem Vantagem em testes de resistência para evitar a condição Amedrontado."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Sacrifício de Coral",
+          "entries": [
+            "Com uma Ação, você pode quebrar pedaços do seu próprio corpo de coral, derretendo-os em uma água medicinal para tocar uma criatura a até 1,5 metro de você:",
+            {
+              "type": "list",
+              "items": [
+                "A criatura recupera {@b 2d6 + seu modificador de Constituição} em Pontos de Vida, ou é curada de uma doença ou da condição Envenenado. A cura aumenta para 3d6 no 9º nível e 4d6 no 17º nível.",
+                "{@b Custo Estrutural:} Ao usar esta habilidade, sua carapaça fica temporariamente fragilizada, aplicando uma penalidade de {@b -1 na sua Classe de Armadura} até você concluir um descanso longo (essa penalidade é acumulativa a cada uso).",
+                "Você pode usar esta habilidade um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos após concluir um descanso longo. Alternativamente, você pode recuperar um uso desta habilidade rolando dois dos seus Dados de Vida de classe e sofrendo o valor total rolado como dano direto."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Abraço Gélido",
+          "entries": [
+            "Quando uma criatura a até 1,5 metro de você cair para 0 Pontos de Vida (mas não for morta instantaneamente), você pode usar sua Reação para derramar sua água interior e enraizar-se ao redor dela, formando um casulo terapêutico de coral e água:",
+            {
+              "type": "list",
+              "items": [
+                "Até o início do seu próximo turno, a criatura fica totalmente protegida dentro do casulo, ganhando Cobertura Total, não sendo afetada negativamente por falhas em testes de morte e tornando-se imune a qualquer dano externo.",
+                "Você pode estender o efeito por mais uma rodada usando sua Reação no seu turno. Enquanto mantiver o casulo, seu deslocamento é reduzido a 0, você fica Incapacitado de realizar Ações e sua CA recebe um bônus de +4.",
+                "Você pode usar este recurso uma vez por descanso longo.",
+                "Além disso, você aprende a magia {@spell gentle repose|xphb|Repouso Tranquilo} e pode conjurá-la gastando um uso desta habilidade. Sabedoria é seu atributo de conjuração para ela."
+              ]
+            }
+          ]
+        }
+      ],
+      "creatureTypes": [
+        "plant",
+        "humanoid"
+      ],
+      "additionalSpells": [
+        {
+          "innate": {
+            "_": [
+              "gentle repose|xphb"
+            ]
+          },
+          "ability": "wis"
+        }
+      ]
+    },
+    {
+      "name": "Kenku",
+      "source": "CHRONOS",
+      "size": [
+        "M"
+      ],
+      "speed": 30,
+      "ability": [
+        {
+          "dex": 2,
+          "choose": {
+            "from": [
+              "wis",
+              "cha"
+            ],
+            "count": 1
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Idade",
+          "entries": [
+            "Os Kenkus atingem a maturidade física por volta dos 10 anos e possuem uma expectativa de vida de aproximadamente 60 a 80 anos."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Alinhamento",
+          "entries": [
+            "Devido ao seu papel de fiéis guardiões noturnos e protetores sob o dogma de Nyx, os Kenkus tendem fortemente ao Leal e Bom ou Neutro e Bom."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Idiomas",
+          "entries": [
+            "Você sabe falar, ler e escrever Comum e Celestial."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Tamanho",
+          "entries": [
+            "Os Kenkus possuem uma estrutura leve e esguia, medindo entre 1,40 m e 1,75 m de altura. Seu tamanho é Médio."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Visão no Escuro",
+          "entries": [
+            "Abençoado pela Deusa da Noite, você pode enxergar na penumbra e na escuridão a até 18 metros (60 pés) como se fosse sob luz plena. Você não pode discernir cores na escuridão, apenas tons de prata e cinza."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Mímica",
+          "entries": [
+            "Você pode imitar qualquer som que tenha ouvido, incluindo vozes, rugidos e barulhos ambientais. Uma criatura que escute os sons pode perceber a imitação com um teste de Sabedoria (Intuição) contra uma CD igual a 8 + seu Bônus de Proficiência + seu modificador de Carisma ou Sabedoria (à sua escolha)."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Memória Perfeita",
+          "entries": [
+            "Sua mente retém detalhes com precisão cirúrgica. Você consegue se lembrar perfeitamente de qualquer coisa que tenha visto ou ouvido no passado. Além disso, você ganha proficiência nas perícias História e Intuição."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Mestre da Cópia",
+          "entries": [
+            "Sua memória e capacidade de observação permitem copiar com exatidão práticas de profissionais e artesãos. Ao passar um período de um dia observando alguém trabalhando com ferramentas, construção, veículos, jogos ou instrumentos musicais, você pode realizar um teste de Inteligência com CD igual a 20 - a quantidade de dias que passou observando a prática. Em caso de sucesso, você ganha proficiência permanente naquela Ferramenta, Kit de Jogo, Instrumento Musical ou Veículo observado."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Manto do Luar",
+          "entries": [
+            "Você tem Vantagem em testes de Destreza (Furtividade) para se esconder enquanto estiver sob a luz do luar, penumbra ou escuridão."
+          ]
+        }
+      ],
+      "creatureTypes": [
+        "humanoid"
+      ],
+      "darkvision": 60,
+      "skillProficiencies": [
+        {
+          "history": true,
+          "insight": true
+        }
+      ],
+      "languageProficiencies": [
+        {
+          "common": true,
+          "celestial": true
+        }
+      ]
+    },
+    {
+      "name": "Nefaryn",
+      "source": "CHRONOS",
+      "size": [
+        "M",
+        "S"
+      ],
+      "speed": 30,
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "str",
+              "dex",
+              "con",
+              "int",
+              "wis",
+              "cha"
+            ],
+            "count": 1,
+            "amount": 2
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Tipo de Criatura",
+          "entries": [
+            "Você é considerado uma criatura do tipo Ínfero e também do mesmo tipo de criatura da sua raça de origem (como Humanoide)."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Idade",
+          "entries": [
+            "Os Nefaryn possuem a mesma expectativa de vida e ciclo de vida da sua raça de origem."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Alinhamento",
+          "entries": [
+            "A marca do pecado compele fortemente os Nefaryn aos alinhamentos Caóticos. É raro que um Nefaryn consiga escapar dessa tendência; aqueles que o fazem costumam trilhar uma jornada turbulenta para desafiar sua própria natureza e reescrever seu destino."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Tamanho",
+          "entries": [
+            "Seu tamanho é o mesmo da sua raça de origem (geralmente Médio ou Pequeno)."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Idiomas",
+          "entries": [
+            "Você sabe falar, ler e escrever Infernal e mais um idioma de sua escolha."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Legado Ancestral",
+          "entries": [
+            "Você preserva resquícios da anatomia de sua linhagem original. Você ganha uma habilidade racial da raça de seus pais. Caso seus pais também sejam Nefaryn, você herda a habilidade racial que eles receberam de seus progenitores, retrocedendo em sua árvore genealógica até encontrar um ancestral não-Nefaryn."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Marca do Pecado",
+          "entries": [
+            "Uma marca singular habita seu corpo desde o seu nascimento. Sua manifestação é inteiramente única: ela pode se apresentar como uma tatuagem viva que se contorce e brilha quando suas emoções afloram, uma estrutura anômala e inseparável como uma auréola sombria, ou manifestações mais perturbadoras, como estigmas em suas mãos por onde escorre um fluido caótico. Nenhuma marca é idêntica a outra, e o pecado que a sua representa concede a você capacidades extraordinárias.",
+            "Ao criar seu personagem, escolha um dos seguintes talentos da Marca do Pecado: Marca da Luxúria, Marca da Mentira, Marca da Inveja, Marca da Avareza, Marca do Medo (Terror), Marca do Orgulho, Marca da Ira, Marca da Gula, Marca da Preguiça.",
+            "Qualquer magia concedida por esses talentos utiliza o valor de habilidade escolhido no seu Aumento de Valor de Habilidade racial como seu atributo de conjuração."
+          ]
+        }
+      ],
+      "creatureTypes": [
+        "fiend"
+      ],
+      "languageProficiencies": [
+        {
+          "infernal": true,
+          "anyStandard": 1
+        }
+      ]
+    },
+    {
+      "name": "Terrano",
+      "source": "CHRONOS",
+      "size": [
+        "M"
+      ],
+      "speed": 30,
+      "ability": [
+        {
+          "choose": {
+            "weighted": {
+              "from": [
+                "str",
+                "dex",
+                "con",
+                "int",
+                "wis",
+                "cha"
+              ],
+              "weights": [
+                2,
+                1
+              ]
+            }
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Idade",
+          "entries": [
+            "Os Terranos alcançam a maturidade física em torno dos 18 anos e possuem uma expectativa de vida de no máximo um século."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Alinhamento",
+          "entries": [
+            "Terranos são extremamente voláteis em suas tendências de acordo com o ambiente e a sociedade em que cresceram, mas costumam pender fortemente para os extremos do espectro moral e ético."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Tamanho",
+          "entries": [
+            "A estatura dos Terranos é muito variada, com adultos medindo entre 1,40 m e 2,00 m de altura. Seu tamanho é Médio."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Idiomas",
+          "entries": [
+            "Você sabe falar, ler e escrever Terran e mais um idioma de sua escolha."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Engenhoso",
+          "entries": [
+            "A versatilidade e a determinação dos Terranos os mantêm sempre preparados para superar adversidades. Você ganha {@b Inspiração} sempre que termina um Descanso Longo."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Nascido para Conquistar",
+          "entries": [
+            "Sua linhagem adaptou-se para dominar um bioma ou contexto cultural específico. Escolha um dos seguintes talentos de adaptação ao criar seu personagem: Adaptado à Tundra, Adaptado ao Deserto, Adaptado à Selva, Adaptado às Montanhas, Adaptado às Cavernas, Adaptado ao Mar, Adaptação Cultural, Adaptado ao Flagelo."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Talento Natural",
+          "entries": [
+            "A ambição e o foco terrano permitem que você desenvolva uma aptidão excepcional logo no início de sua jornada. Escolha um dos seguintes talentos para o seu personagem: Adepto da Metamagia, Adepto Elemental, Adepto Marcial, Adestrador de Feras, Alerta, Atleta, Ator, Brigão de Taverna, Carniceiro, Chef, Curandeiro, Envenenador, Explorador de Masmorras, Iniciado em Artífice, Iniciado em Luta, Iniciado em Magia, Líder Inspirador, Linguista, Mente Aguçada, Móvel, Perito, Prodígio.",
+            "{@i Nota:} Os talentos adquiridos através dos traços Nascido para Conquistar e Talento Natural {@b não concedem aumento de valor de habilidade}, mesmo que o talento original possua essa previsão."
+          ]
+        }
+      ],
+      "creatureTypes": [
+        "humanoid"
+      ]
+    },
+    {
+      "name": "Virtaryn",
+      "source": "CHRONOS",
+      "size": [
+        "M",
+        "S"
+      ],
+      "speed": 30,
+      "ability": [
+        {
+          "choose": {
+            "from": [
+              "str",
+              "dex",
+              "con",
+              "int",
+              "wis",
+              "cha"
+            ],
+            "count": 1,
+            "amount": 2
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Tipo de Criatura",
+          "entries": [
+            "Você é considerado uma criatura do tipo Celestial e também do mesmo tipo de criatura da sua raça de origem (como Humanoide)."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Idade",
+          "entries": [
+            "Os Virtaryn possuem a mesma expectativa de vida e ciclo de vida da raça de origem."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Alinhamento",
+          "entries": [
+            "A marca da virtude compele fortemente os Virtaryn aos alinhamentos Leais ou Bondosos. É raro que um Virtaryn consiga escapar dessa tendência; aqueles que o fazem costumam trilhar uma jornada turbulenta para desafiar sua própria natureza e reescrever seu destino."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Tamanho",
+          "entries": [
+            "Seu tamanho é o mesmo da sua raça de origem (geralmente Médio ou Pequeno)."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Legado Ancestral",
+          "entries": [
+            "Você preserva resquícios da anatomia de sua linhagem original. Você ganha uma habilidade racial da raça de seus pais. Caso seus pais também sejam Virtaryn, você herda a habilidade racial que eles receberam de seus progenitores, retrocedendo em sua árvore genealógica até encontrar um ancestral não-Virtaryn."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Marca da Virtude",
+          "entries": [
+            "Uma marca singular habita seu corpo desde o seu nascimento. Sua manifestação é inteiramente única: ela pode se apresentar como uma tatuagem viva que se contorce e brilha quando suas emoções afloram, uma estrutura anômala e inseparável como uma auréola dourada, ou manifestações mais anômalas, como sangue dourado reluzente ou um par de asas celestiais. Nenhuma marca é idêntica a outra, e a virtude que a sua representa concede a você capacidades extraordinárias.",
+            "Ao criar seu personagem, escolha um dos seguintes talentos da Marca da Virtude: Marca da Castidade, Marca da Honestidade, Marca do Contentamento, Marca da Caridade (Generosidade), Marca da Coragem, Marca da Humildade, Marca da Paciência, Marca da Temperança, Marca da Diligência.",
+            "Qualquer magia concedida por esses talentos utiliza o valor de habilidade escolhido no seu Aumento de Valor de Habilidade racial como seu atributo de conjuração."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Idiomas",
+          "entries": [
+            "Você sabe falar, ler e escrever Celestial e mais um idioma de sua escolha."
+          ]
+        }
+      ],
+      "creatureTypes": [
+        "celestial"
+      ],
+      "languageProficiencies": [
+        {
+          "celestial": true,
+          "anyStandard": 1
+        }
+      ]
+    }
+  ],
+  "subrace": [
+    {
+      "name": "O Equilíbrio Cósmico",
+      "source": "CHRONOS",
+      "raceName": "Aethelis",
+      "raceSource": "CHRONOS",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Aparência",
+          "entries": [
+            "Plasma cinza com padrões e faixas de cores opostas (como azul e vermelho)."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Balanço Cósmico",
+          "entries": [
+            "Quando você ou uma criatura a até 9 metros que você possa ver falhar em um teste de resistência ou jogada de ataque, você pode usar sua Reação para permitir que o alvo re-role o dado. Você pode usar esta habilidade um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos após um descanso longo."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "A Alvorada Dourada",
+      "source": "CHRONOS",
+      "raceName": "Aethelis",
+      "raceSource": "CHRONOS",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Aparência",
+          "entries": [
+            "Plasma dourado e cintilante que brilha como a luz solar."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Fulgor Solar",
+          "entries": [
+            "Com uma Ação Bônus, você faz seu corpo emitir um estalo de luz radiante. Todas as criaturas a até 3 metros de você devem passar em um teste de resistência de Constituição (CD = 8 + seu modificador de Constituição + seu Bônus de Proficiência) ou ficarão Cegas até o final do seu próximo turno. Você pode usar esta habilidade um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos após um descanso longo."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "O Véu de Prata",
+      "source": "CHRONOS",
+      "raceName": "Aethelis",
+      "raceSource": "CHRONOS",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Aparência",
+          "entries": [
+            "Plasma prateado, branco e reluzente como o luar."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Manto Prateado",
+          "entries": [
+            "Quando você ou um aliado a até 9 metros for atingido por um ataque, você pode usar sua Reação para conjurar um escudo de plasma. A criatura ganha um bônus na CA igual ao seu Bônus de Proficiência contra aquele ataque, potencialmente fazendo-o errar. Você pode usar esta habilidade um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos após um descanso longo."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "A Confluência Cósmica",
+      "source": "CHRONOS",
+      "raceName": "Aethelis",
+      "raceSource": "CHRONOS",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Aparência",
+          "entries": [
+            "Plasma azul-profundo impregnado por poeira estelar que se move ritmicamente."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Mente Temporal",
+          "entries": [
+            "Sua mente percebe os milissegundos antes que aconteçam. Você adiciona seu Bônus de Proficiência às suas jogadas de Iniciativa."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Salto Temporal",
+          "entries": [
+            "Com uma Ação Bônus, você pode se teleportar a até 4,5 metros (15 pés) para um espaço desocupado que possa ver, sem provocar ataques de oportunidade. Você pode usar esta habilidade um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos após um descanso longo."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "A Maré de Azur",
+      "source": "CHRONOS",
+      "raceName": "Aethelis",
+      "raceSource": "CHRONOS",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Aparência",
+          "entries": [
+            "Plasma em tons de azul-celeste e turquesa fluindo como água."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Maré de Repouso",
+          "entries": [
+            "Com uma Ação, você toca uma criatura (ou a si mesmo) e emite uma onda de tranquilidade. A criatura recupera Pontos de Vida iguais a 1d8 + seu Bônus de Proficiência e é curada das condições Amedrontado ou Envenenado. A cura aumenta para 2d8 no nível 8 e 3d8 no nível 14. Você pode usar esta habilidade um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos após um descanso longo."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "O Peregrino Verde",
+      "source": "CHRONOS",
+      "raceName": "Aethelis",
+      "raceSource": "CHRONOS",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Aparência",
+          "entries": [
+            "Plasma verde-folha e esmeralda com fagulhas de luz viva."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Passada do Caçador",
+          "entries": [
+            "Seu deslocamento base aumenta para 35 pés (10,5 metros) e você ignora terreno difícil não-mágico. Além disso, você tem vantagem em testes de Sabedoria (Sobrevivência) para rastrear e em testes de Destreza (Furtividade) enquanto estiver sob folhagens ou ao ar livre."
+          ]
+        }
+      ],
+      "speed": 35
+    },
+    {
+      "name": "O Nexo do Zéfiro",
+      "source": "CHRONOS",
+      "raceName": "Aethelis",
+      "raceSource": "CHRONOS",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Aparência",
+          "entries": [
+            "Plasma multicolorido com vibrações amarelas e feixes de eletricidade estática."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Vento da Liberdade",
+          "entries": [
+            "Com uma Ação Bônus, você invoca uma rajada dos ventos cósmicos. Você ganha um deslocamento de Voo de 30 pés até o final do seu turno e encerra qualquer efeito que esteja reduzindo seu deslocamento ou o deixando Agarrado. Você pode usar esta habilidade um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos após um descanso longo."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "A Fenda Sanguínea",
+      "source": "CHRONOS",
+      "raceName": "Aethelis",
+      "raceSource": "CHRONOS",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Aparência",
+          "entries": [
+            "Plasma vermelho-sangue denso entrecortado por veios dourados de alta energia."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Detonação Sanguínea",
+          "entries": [
+            "Uma vez por turno, quando você acertar um ataque com uma arma ou magia, você pode fazer seu plasma explodir no ponto de impacto. O alvo sofre 1d6 de dano de Fogo ou Trovão adicional (à sua escolha). O dano aumenta para 2d6 no nível 9 e 3d6 no nível 17. Você pode usar esta habilidade um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos após um descanso longo."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "O Véu do Guardião das Chaves",
+      "source": "CHRONOS",
+      "raceName": "Aethelis",
+      "raceSource": "CHRONOS",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Aparência",
+          "entries": [
+            "Plasma escuro em tons de azul, cinza e preto que parecem absorver a luz ao redor."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Sombra dos Sonhos",
+          "entries": [
+            "Com uma Ação Bônus, você se envolve em brumas do plano dos mortos e dos sonhos, tornando-se Invisível até o início do seu próximo turno ou até realizar um ataque ou conjurar uma magia. Você pode usar esta habilidade um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos após um descanso longo."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "O Engenho da Harmonia",
+      "source": "CHRONOS",
+      "raceName": "Aethelis",
+      "raceSource": "CHRONOS",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Aparência",
+          "entries": [
+            "Plasma em tons vibrantes de roxo e verde-arcano que crepitam com energia rúnica."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Pulso de Magia",
+          "entries": [
+            "Você conhece um truque (cantrip) à sua escolha da lista de Mago. Inteligência é o seu atributo de conjuração para ele. Além disso, uma vez por descanso longo, quando você conjurar uma magia de 1º nível ou superior que cause dano, você pode somar seu Bônus de Proficiência ao dano total causado (causando dano de Força adicional)."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "A Joia dos Dragões",
+      "source": "CHRONOS",
+      "raceName": "Aethelis",
+      "raceSource": "CHRONOS",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Aparência",
+          "entries": [
+            "Plasma vermelho e verde cintilante que lembra o brilho de escamas e pedras preciosas."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Sorte Dracônica",
+          "entries": [
+            "Quando você fizer uma jogada de ataque, teste de habilidade ou teste de resistência, você pode usar sua Reação para rolar um d6 adicional e somar o resultado ao total. Se o resultado do d6 for 6, você recupera imediatamente o uso dessa habilidade. Caso contrário, você pode usá-la uma vez por descanso longo."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "O Espírito Incandescente",
+      "source": "CHRONOS",
+      "raceName": "Aethelis",
+      "raceSource": "CHRONOS",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Aparência",
+          "entries": [
+            "Plasma vermelho-intenso com chamas alaranjadas e fagulhas de forja."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Chama da Forja",
+          "entries": [
+            "Você ganha proficiência em uma ferramenta de artesão à sua escolha. Além disso, com uma Ação Bônus, você inflama suas armas e braços, fazendo-os tomar a forma de uma ferramenta ou arma na qual você tenha proficiência, podendo ser usada como se fosse o objeto real até você reverter a forma."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Carnado Desperto",
+      "source": "CHRONOS",
+      "raceName": "Desperto",
+      "raceSource": "CHRONOS",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Descrição",
+          "entries": [
+            "A alma habita um corpo que ainda preserva tecidos, músculos e marcas cadavéricas recentes."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Garras Necróticas",
+          "entries": [
+            "Você é proficiente em ataques desarmados com suas garras, que causam 1d6 de dano necrótico em um acerto. Além disso, sempre que você reduzir uma criatura a 0 Pontos de Vida com um ataque ou magia, você recupera Pontos de Vida iguais ao seu modificador de Constituição + nível de personagem."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Aparência Cadavérica",
+          "entries": [
+            "A presença imponente de sua forma recém-desperta lhe concede proficiência na perícia Intimidação."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Fortitude de Morto-Vivo",
+          "entries": [
+            "Se um dano o reduzir a 0 Pontos de Vida, você pode realizar um teste de resistência de Constituição (CD = 5 + o dano sofrido). Se obtiver sucesso, você passa a ter 1 Ponto de Vida em vez de 0. Você não pode usar esse recurso se o dano for Radiante ou proveniente de um Acerto Crítico. Após ser usada, você só pode utilizar esta habilidade novamente após concluir um descanso longo."
+          ]
+        }
+      ],
+      "skillProficiencies": [
+        {
+          "intimidation": true
+        }
+      ]
+    },
+    {
+      "name": "Esquelético Desperto",
+      "source": "CHRONOS",
+      "raceName": "Desperto",
+      "raceSource": "CHRONOS",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Descrição",
+          "entries": [
+            "O tempo consumiu a carne sobressalente, deixando apenas a estrutura óssea rígida mantida pela vontade divina."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Corpo Esquelético",
+          "entries": [
+            "Você tem resistência a dano de Veneno e a dano Perfurante proveniente de ataques não mágicos. Além disso, você é imune à condição Envenenado e aos primeiros 5 níveis de Exaustão."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Imortalidade Lúcida",
+          "entries": [
+            "Sua mente permanece impecável e desapegada das fraquezas da carne. Você tem vantagem em testes de resistência contra magias de controle mental e efeitos da escola de Encantamento."
+          ]
+        }
+      ],
+      "resist": [
+        "poison"
+      ],
+      "conditionImmune": [
+        "poisoned"
+      ]
+    },
+    {
+      "name": "Espírito Desperto",
+      "source": "CHRONOS",
+      "raceName": "Desperto",
+      "raceSource": "CHRONOS",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Descrição",
+          "entries": [
+            "A matéria física dissolveu-se por completo, restando apenas uma manifestação espectral de ectoplasma e memória."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Corporeidade Fantasmal",
+          "entries": [
+            "Você pode mover-se através de criaturas e objetos como se fossem terreno difícil. Se terminar seu turno dentro de um objeto sólido, você sofre 1d10 de dano de Força."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Voz do Além",
+          "entries": [
+            "Você conhece o truque {@spell thaumaturgy|xphb|Taumaturgia}. A partir do 3º nível, você pode conjurar a magia {@spell invisibility|xphb|Invisibilidade} em si mesmo sem gastar espaços de magia, um número de vezes igual ao seu Bônus de Proficiência. Você recupera todos os usos após um descanso longo."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Evasão Espectral",
+          "entries": [
+            "Quando você for alvo de um ataque ou de uma magia, pode usar sua Reação para se tornar incorpóreo até o final do seu próximo turno, ganhando resistência a todos os tipos de dano (exceto dano causado por armas mágicas). Você pode usar esta habilidade uma vez, recuperando o uso após concluir um descanso longo."
+          ]
+        }
+      ],
+      "additionalSpells": [
+        {
+          "innate": {
+            "_": [
+              "thaumaturgy|xphb"
+            ]
+          },
+          "ability": "cha"
+        }
+      ]
+    },
+    {
+      "name": "Kael'sol, O Dragão Solar",
+      "source": "CHRONOS",
+      "raceName": "Draconato",
+      "raceSource": "CHRONOS",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Ancestral Dracônico",
+          "entries": [
+            "Sopro: dano Radiante, cone de 25 pés (teste de Destreza). Resistência: Radiante. Talento concedido: Afinidade Solar."
+          ]
+        }
+      ],
+      "resist": [
+        "radiant"
+      ]
+    },
+    {
+      "name": "Argendor, O Dragão Lunar",
+      "source": "CHRONOS",
+      "raceName": "Draconato",
+      "raceSource": "CHRONOS",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Ancestral Dracônico",
+          "entries": [
+            "Sopro: dano Psíquico, linha de 10 x 30 pés (teste de Sabedoria). Resistência: Psíquico. Talento concedido: Afinidade Lunar."
+          ]
+        }
+      ],
+      "resist": [
+        "psychic"
+      ]
+    },
+    {
+      "name": "Thaumeros, O Dragão Arcano",
+      "source": "CHRONOS",
+      "raceName": "Draconato",
+      "raceSource": "CHRONOS",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Ancestral Dracônico",
+          "entries": [
+            "Sopro: dano de Força, círculo de 10 pés de raio (teste de Destreza). Resistência: Força. Talento concedido: Afinidade Arcana."
+          ]
+        }
+      ],
+      "resist": [
+        "force"
+      ]
+    },
+    {
+      "name": "Caldrin, O Dragão Oceânico",
+      "source": "CHRONOS",
+      "raceName": "Draconato",
+      "raceSource": "CHRONOS",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Ancestral Dracônico",
+          "entries": [
+            "Sopro: dano de Concussão, cone de 25 pés (teste de Força). Resistência: Frio. Talento concedido: Afinidade Oceânica."
+          ]
+        }
+      ],
+      "resist": [
+        "cold"
+      ]
+    },
+    {
+      "name": "Askather, O Dragão Calamidade",
+      "source": "CHRONOS",
+      "raceName": "Draconato",
+      "raceSource": "CHRONOS",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Ancestral Dracônico",
+          "entries": [
+            "Sopro e resistência: escolha apenas um tipo entre Fogo, Elétrico ou Frio ao criar o personagem (vale tanto para o sopro quanto para a resistência). Linha de 10 x 30 pés (teste de Destreza). Talento concedido: Afinidade Cataclísmica."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ferroskar, O Dragão de Aço",
+      "source": "CHRONOS",
+      "raceName": "Draconato",
+      "raceSource": "CHRONOS",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Ancestral Dracônico",
+          "entries": [
+            "Sopro: dano Perfurante, cone de 25 pés (teste de Destreza). Resistência: escolha um tipo de dano físico não-mágico (Concussão, Perfurante ou Cortante). Talento concedido: Afinidade ao Aço."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Renirazura, A Restauração",
+      "source": "CHRONOS",
+      "raceName": "Draconato",
+      "raceSource": "CHRONOS",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Ancestral Dracônico",
+          "entries": [
+            "Sopro: cura, cone de 25 pés (sem teste de resistência). Resistência: Necrótico. Talento concedido: Afinidade a Restauração."
+          ]
+        }
+      ],
+      "resist": [
+        "necrotic"
+      ]
+    }
+  ]
+}
